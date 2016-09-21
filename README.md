@@ -2,9 +2,12 @@
 Recurrent Neural Network for Syntax Learning with Flexible Representations for Robotic Architectures
 
 ## Intro on Reservoir Computing
-(type of Recurrent Neural Network used in this project)
+Reservoir Computing (RC) is a type of Recurrent Neural Network used in this EchoRob project. Namely we use an instance of RC called Echo State Networks (ESN).
+
 [Romain Pastureau](https://github.com/RomainPastureau) (intern in our Mnemosyne team; summer 2016) did great iPython Notebook tutorials:
+
 https://github.com/neuronalX/Reservoir-Jupyter
+
 Click on the "launch Binder" button, and then run either:
 - in English: [Minimal ESN - EN.ipynb](https://github.com/RomainPastureau/Reservoir-Jupyter/blob/master/Minimal%20ESN%20-%20EN.ipynb)
 - en Français: [Minimal ESN - FR.ipynb](https://github.com/RomainPastureau/Reservoir-Jupyter/blob/master/Minimal%20ESN%20-%20FR.ipynb)
