@@ -13,7 +13,10 @@ Click on the "launch Binder" button, and then run either:
 - en Français: [Minimal ESN - FR.ipynb](https://github.com/RomainPastureau/Reservoir-Jupyter/blob/master/Minimal%20ESN%20-%20FR.ipynb)
 
 ## Corpora
-Most corpora used with different versions of the model available here:
+### 15 languages corpora is available here:
+[2017_TCDS_15languages.txt](/corpora/2017_TCDS_15languages.txt)
+
+### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
 [xavierhinaut.com/downloads](http://www.xavierhinaut.com/downloads)
 
 ## Source code

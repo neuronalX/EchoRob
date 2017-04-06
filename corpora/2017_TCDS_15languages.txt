@@ -1,0 +1,580 @@
+<train data>
+
+###############################
+########  ENGLISH  ############
+###############################
+open door ; open the door
+answer phone ; answer the phone
+water plants ; water the plants
+clear table ; clear the table
+
+take coffee, pour coffee into mug ; take the coffee and pour it into the mug
+clean table, put mug on table ; clean the table and put the mug on it
+
+put mug on left ; put the mug on the left
+
+get phone, bring phone me ; get the phone and bring it to me
+go to bathroom ; go to the bathroom
+
+make tea me; make me some tea
+tell joke me ; tell me a joke
+make sandwhich me, sandwhich tomatoes ; make me a sandwhich with tomatoes #old one with error: make sandwhich me, sandwhich tomatoes ; make me a sandwhich tomatoes
+bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
+bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
+bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
+dance for me, clean floor, clean same time ; dance for me and clean the floor at the same time
+
+switch off light ; switch off the light
+
+find bottle, bottle water ; find the bottle of water
+search object, object small pink ; search for the small pink object
+search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
+
+check if, if husband home, husband my, if five ; check if my husband is at home at five
+
+
+###############################
+########  GERMAN   ############
+###############################
+öffne Tür ; öffne die Tür
+geh an Telefon ; geh an das Telefon
+gieße Pflanzen ; gieße die Pflanzen
+leere Tisch ; leere den Tisch
+
+nimm Kaffee, gieß Kaffee in Tasse ; nimm den Kaffee und gieß ihn in die Tasse
+reinige Tisch, stell Tasse auf Tisch ; reinige den Tisch und stell die Tasse auf ihn
+
+stell Tasse nach links ; stell die Tasse nach links
+
+nimm Telefon, bring Telefon mir ; nimm das Telefon und bring es zu mir
+geh in Badezimmer ; geh in das Badezimmer
+
+mach Tee mir ; mach mir etwas Tee
+erzähl Witz mir ; erzähl mir einen Witz
+mach Sandwich mir, Sandwich Tomaten ; mach mir ein Sandwich mit Tomaten
+bring Zeitung mir, Zeitung auf Tisch ; bring mir die Zeitung , die auf dem Tisch ist
+bring Kleid, Kleid blaue, Kleid im Schrank ; bring mir das blaue Kleid , das im Schrank ist
+bring Stift mir, Stift blauen, Stift neben Becher, Becher roten ; bring mir den blauen Stift neben dem roten Becher
+tanz für mich, reinige Boden, reinige gleichen Zeit ; tanz für mich und reinige den Boden zur gleichen Zeit
+
+schalte aus Licht ; schalte das Licht aus
+finde Flasche, Flasche Wasser ; finde die Flasche mit Wasser
+such Objekt, Objekt kleine pinke ; such das kleine pinke Objekt
+such Rezept Internet, Rezept Tiramisu ; such das Rezept für Tiramisu im Internet
+
+überprüfe ob, ob Mann Hause, Mann mein, ob fünf ; überprüfe , ob mein Mann um fünf zu Hause ist
+
+
+
+###############################
+########  SPANISH   ############
+###############################
+abre puerta ; abre la puerta
+contesta teléfono ; contesta el teléfono
+riega plantas ; riega las plantas
+limpia mesa ; limpia la mesa #error previously liempia mesa ; limpia la mesa
+toma café, sirve café en taza ; toma el café y sirve -lo en la taza
+limpia mesa, pon taza sobre mesa ; limpia la mesa y pon la taza sobre ella
+pon taza en izquierda ; pon la taza en la izquierda
+toma teléfono, trae teléfono -me ;  toma el teléfono y trae -me -lo
+ve baño ; ve al baño #old: 'al' ve al baño ; ve al baño
+prepara té -me; prepara -me té
+di broma -me ; di -me una broma
+prepara sandwich -me, sandwich tomates ; prepara -me un sandwich con tomates
+trae periódico -me, periódico sobre mesa, mesa en cocina ; trae -me el periódico que está sobre la mesa en la cocina
+trae vestido -me, vestido azul, vestido en armario ; trae -me el vestido azul que está en el armario
+trae lápiz -me, lápiz azul, lápiz junto taza, taza roja ; trae -me el lápiz azul junto a la taza roja #old: "junto a": trae lápiz -me, lápiz azul, lápiz junto a taza, taza roja ; trae -me el lápiz azul junto a la taza roja
+baila para mi, limpia piso, limpia mismo tiempo ; baila para mi y limpia el piso al mismo tiempo
+apaga luz ; apaga la luz
+encuentra botella, botella agua ; encuentra la botella de agua
+busca objeto, objeto rosado pequeño ; busca el objeto rosado pequeño
+busca receta internet, receta tiramisú ; busca la receta de tiramisú en internet
+chequea si, si marido casa, marido mi, si cinco ; chequea si mi marido está en casa a las cinco
+
+
+###############################
+########  FRENCH   ############
+###############################
+
+ouvre porte ; ouvre la porte
+réponds téléphone ; réponds au téléphone
+arrose plantes ; arrose les plantes
+débarrasse table ; débarrasse la table
+
+prends café, verse café tasse ; prends le café et verse le dans la tasse
+nettoie table, met tasse dessus table ; nettoie la table et met la tasse dessus
+
+met tasse gauche ; met la tasse à gauche
+
+prends téléphone, amène téléphone moi ; prends le téléphone et amène le moi
+va dans salle_de_bain ; va dans la salle_de_bain
+
+fais thé moi ; fais moi du thé
+raconte blague moi ; raconte moi une blague
+fais sandwich moi, sandwhich tomates ;fais moi un sandwhich avec des tomates
+apporte journal moi, journal sur table, table dans cuisine ; apporte moi le journal qui est sur la table dans la cuisine
+apporte robe moi, robe bleu, robe dans placard ; apporte moi la robe bleue qui est dans le placard
+apporte stylo moi, stylo bleu, stylo côté tasse, tasse rouge ; apporte moi le stylo bleu à côté de la tasse rouge
+danse pour moi, nettoie sol, nettoie même temps; danse pour moi et nettoie le sol en même temps
+
+éteins lumière ; éteins la lumière
+
+trouve bouteille, bouteille eau ; trouve la bouteille d' eau
+cherche objet, objet petit rose ; cherche le petit objet rose
+cherche recette internet, recette tiramisu ; cherche la recette du tiramisu sur internet
+
+vérifie si, si mari maison, mari mon, si heures cinq ; vérifie si mon mari est à la maison à cinq heures
+
+###############################
+########  ITALIAN  ############
+###############################
+apri porta ; apri la porta
+rispondi telefono ; rispondi al telefono
+annaffia piante ; annaffia le piante
+pulisci tavolo ; pulisci il tavolo
+
+prendi caffe, versa caffe nella tazza ; prendi il caffe e versa -lo nella tazza
+pulisci tavolo, metti tazza sopra tavolo ; pulisci il tavolo e metti -ci sopra la tazza
+
+metti tazza a sinistra ; metti la tazza a sinistra
+prendi telefono, da telefono -mme ; prendi il telefono e da -mme -lo
+vai bagno ; vai al bagno
+
+fa the -mmi ; fa -mmi del the
+racconta barzelletta -mi ; racconta -mi una barzelletta
+fa panino -mmi, panino pomodori ; fa -mmi un panino con i pomodori
+
+prendi giornale -mi, giornale trova sul tavolo, tavolo in cucina ; prendi -mi il giornale che si trova sul tavolo in cucina
+prendi vestito -mi, vestito blu, vestito trova nell' armadio ; prendi -mi il vestito blu che si trova nell' armadio
+prendi penna -mi, penna blu, penna vicino tazza, tazza rossa ; prendi -mi la penna blu che é vicino alla tazza rossa
+
+danza per me, pulisci pavimento, pulisci contemporaneamente ; danza per me e pulisci il pavimento contemporaneamente
+spegni luce ; spegni la luce
+
+trova bottiglia, bottiglia acqua ; trova la bottiglia d' acqua
+cerca oggetto, oggetto piccolo rosa ; cerca il piccolo oggetto rosa
+cerca ricetta internet, ricetta tiramisù ; cerca la ricetta del tiramisù in internet
+
+controlla se, se marito casa, marito mio, se cinque ; controlla se mio marito é a casa alle cinque
+
+
+###############################
+########  CATALAN  ############
+###############################
+obre porta ; obre la porta
+contesta telèfon ; contesta el telèfon
+rega plantes ; rega les plantes
+neteja taula ; neteja la taula
+
+pren cafè, serveixo cafè en tassa ; pren el cafè i serveixo -ho en la tassa
+neteja taula, posa tassa sobra taula ; neteja la taula i posa la tassa a sobra
+
+posa tassa esquerra ; posa la tassa a l’ esquerra
+pren telèfon, porta telèfon ‘m ; pren el telèfon i porta ‘m -ho
+ves bany ; ves al bany
+
+fes te -me ; fes -me una mica de te # may be a litterate translation from English ("una mica" being "some")
+digues acudit -me ; digues -me un acudit
+fes sandwich -me, sandwich tomaquets ; fes -me un sandwich amb tomaquets
+
+porta periòdic ‘m, periòdic sobre taula, taula en cuina ; porta ‘m el periòdic que està sobre la taula en la cuina
+porta vestit ‘m, vestit blau, vestit en armari ; porta ‘m el vestit blau que està en l’ armari
+porta bolígraf ‘m, bolígraf blau, bolígraf costat tassa, tassa vermella ; porta ‘m el bolígraf blau al costat de la tassa vermella
+
+balla per mi, neteja sòl, neteja mateix temps ; balla per a mi i neteja el sòl al mateix temps
+apaga llum; apaga el llum
+
+troba ampolla, ampolla aigua ; troba la ampolla d’ aigua
+cerca objecte, objecte petit rosat ; cerca l’ objecte petit i rosat
+cerca recepta internet, recepta en tiramisú ; cerca la recepta de tiramisú en internet
+
+comprova si, si marit casa, marit meu, si cinc ; comprova si el meu marit està a casa a les cinc
+
+
+###############################
+########  Marathi ############
+###############################
+ughad darvaja ; darvaja ughad
+uchal phone ; phone uchal
+ghal pani jhada; jhada -na pani ghal
+kar saf table ; table saf kar
+ghe coffee, tak coffee pely ; coffee ghe ani pely -at tak
+kar saf table, thev pela tya ; table saf kar ani pela tya -wr thev
+thev pela bajula ; pela davya bajula thev
+ghe phone, aan phone mazajaval  ; phone ghe ani mazajaval aan
+ja snanagruh ; snanagruh -at ja
+banav chaha mazasathi ; mazasathi chaha banav
+sang vinod mala ;  mala vinod sang
+banav sandwich mazasathi, sandwich tomato ; mazasathi tomato -cha sandwich banav
+aan wartapatra, wartapatra table, table svayampakgruh; jo wartapatra svayampakgruh -at table -wr ahe to aan
+aan poshakh, poshakh nila, poshakh kapat ; kapat -atla nila poshakh aan
+aan lekhani, lekhani nili, lekhani pelya mag, pelya lal ; lal pelya mag -chi nili lekhani aan
+nach mazasathi, kar saf majala, kar saf ekach veli ; ekach veli mazasathi nach ani majala saf kar
+kar band diva ; diva band kar
+shodh batli, batli panya ; panya -chi batli shodh
+shodh vastu, vastu chhoti gulabi ; chhoti gulabi vastu shodh
+shodh kruti internet, kruti tiramisu ; tiramisu chi kruti internet -wr shodh
+tapas jr, jr pati ghari, pati maze, pach wajta ; jr maze pati pach wajta ghari astil ka he tapas
+
+
+
+###############################
+########  Hindi    ############
+###############################
+kholo dharwaza;dharwaza kholo
+dho javaab phon;phon ka javaab dho
+dho paani paudhon;paudhon ko paani dho
+saaf karo mez;mez saaf karo
+lo coffee, daalo mug coffee ; coffee lo aur mug may daalo
+saaf karo mez, rakho mez mug ; mez saaf karo aur us par mug rakho
+rakho baayi mug;baayi taraf may mug rakho
+lo phon, lay aao mere phon ; phon lo aur mere paas lay aao
+jao bathroom;bathroom jao
+banao mujhay chai;mujhay thoda chai banao
+bathao mujhay joke;mujhay aek joke bathao
+banao mujhay sandwich, tamatar sandwich;mujhay aek tamatar wala sandwich banao
+lavo mujhay akhbaar, mez akhbaar, rasoyi ghar mez;mujhay rasoyi ghar may mez par akhbaar lavo
+lavo mujhay poshaak, neel rang poshaak, katori poshaak;mujhay katori may neel rang poshaak lavo
+lavo mujhay kalam, neel rang kalam, cup baaju kalam, laal cup;mujhay laal cup ke baaju neel rang kalam lavo
+naacho mayray liye, saaf karo pharsh, saaf karo aek-hee samay;aek-hee samay mayray liye naacho aur pharsh saaf karo #xav: removed "karo" and "aek" in the left part
+bujhaa dho batthi;batthi bujhaa dho
+doondo bothal, paani bothal ;paani ka bothal doondo
+doondo vasthu, chotay vasthu, gulaabi vasthu;chotay gulaabi vasthu doondo
+doondo nuskha, internet nuskha, tiramisu nuskha;internet par tiramisu ka nuskha doondo
+jaanch agar, agar ghar pathi, mera pathi, agar paanch bajay;jaanch agar mera pathi paanch bajay ghar par hain #jaanch agar, agar pathi ghar, pathi mera, agar paanch bajay;jaanch agar mera pathni paanch bajay ghar par hain
+
+###############################
+########  Basque    ############
+###############################
+#  open door ; open the door
+ate ideki ; ate -a ideki #Paul : Ate = porte, atea = la porte , le ‘a’ correspond à l’article défini
+#  answer phone ; answer the phone
+telefono erantzun ; telefono -a erantzun
+#  water plants ; water the plants
+landare ureztatu ; landare -ak ureztatu
+#  clear table ; clear the table
+mahai garbitu ; mahai -a garbitu
+#  take coffee, pour coffee into mug ; take the coffee and pour it into the mug
+kafe hartu , kafe kiker ixuri ; kafe -a hartu eta kiker -an ixuri
+#  clean table, put mug on table ; clean the table and put the mug on it
+mahai garbitu, kiker ezarri mahai gainean ; mahai -a garbitu eta kiker -a ezarri gainean
+#  put mug on left ; put the mug on the left
+kiker ezker ezarri ; kiker -a ezker -rean ezarri
+#  get phone, bring phone me ; get the phone and bring it to me
+telefono hartu, neri ekarri ; telefono -a hartu eta neri ekarri
+#  go to bathroom ; go to the bathroom
+mainugel joan ; mainugel -ara joan
+#  make tea me; make me some tea
+tea egin diezadazu ; tea egin diezadazu
+#  tell joke me ; tell me a joke
+txiste erran nazazu ; txiste bat erran nazazu
+#  make sandwhich me, sandwhich tomatoes ; make me a sandwhich with tomatoes
+ogitarte egin nazazu, ogitarte tomate ; ogitarte bat egin nazazu tomate -ekin
+#  bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
+egunkari ekar diezadazu, egunkari mahai gainean, mahai sukalde ; sukalde -ko mahai gainean den egunkari -a ekar diezadazu
+#  bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
+arropa ekarri diezadazu, arropa urdin, arropa armairuan ; armairuan den arropa urdin -a ekarri diezadazu
+#  bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
+idazluma ekarri diezadazu, idazluma urdin, idazluma kiker ondoan, kiker gorri ; kiker -a gorri -aren ondoan den idazluma urdin -a ekarri diezadazu
+#  dance for me, clean floor, clean same time ; dance for me and clean the floor at the same time
+dantza egin neretzat, lur garbitu,garbitu denbora beran ; neretzat dantza egin eta lur -ra garbitu denbora beran
+#  switch off light ; switch off the light
+argi itzali ; argi -a itzali
+#  find bottle, bottle water ; find the bottle of water
+botil aurkitu, botil ur ; ur botil -a aurkitu
+#  search object, object small pink ; search for the small pink object
+gauz bilatu, gauz txiki arros ; gauz -a txiki eta arros -a bilatu
+#  search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
+tiramisu errezeta, errezeta bilatu internet ; tiramisu errezeta bilatu internet -en
+#  check if, if husband home, husband my, if five ; check if my husband is at home at five
+egiaztatu, senar etxean bada, senar nere, bost bada ; egiaztatu nere senar -a etxean bada bost -etan
+
+
+
+##############################################
+###############################
+########  Persian    ############
+###############################
+baz dar ; dar ra baz kon
+javab telfon ; telfon ra javab bede
+ab giyahan ; giyahan ra ab bede
+tamiz miz ; miz ra tamiz kon
+gir ghahve, riz ghahve daroon livan ; ghahve ra be- gir va daroon -e livan be- riz
+tamiz miz, gzar livan rooy miz ; miz ra tamiz kon va livan ra rooy -e an bo- gzar
+gzar livan taraf chap ; livan ra taraf -e chap bo- gzar
+gir telfon, avar telfon man ; telfon ra be- gir va an ra baray -e man bi- avar
+ro be dastshooyi; be dastshooyi bo- ro
+dorost chay man; baray -e man chay dorost kon
+goo jok man; baray -e man jok be- goo
+dorost sandwich man, sandwich gojefarangi; baray -e man sandwich ba gojefarangi dorost kon
+avar roozname man, roozname rooy miz, miz dar ashpazkhane; roozname -yi ra ke rooy -e miz dar ashpazkhane ast ra baray -e man bi- avar      #-yi is same -e, only because the word finish with “e” we use “yi”
+avar lebas man, lebas abi, lebas dar komod; lebas -e abi ra ke dar komod ast ra baray -e man bi- avar
+avar khodakar man, khodakar abi, khodakar kenar fenjan, fenjan ghermez ; khodakar -e abi ra ke kenar -e fenjan ghermez ast baray -e man bi- avar
+raghs baray man, tamiz zamin, tamiz ham zaman; zamin ra tamiz kon va ham zaman baray -e man be- raghs # “same time” is one word in Persian. I splited artificially. However, “ham” is prefix used for similarity but not for the word “same”
+khamoosh cheragh ; cheragh ra khamoosh kon
+peyda botri, botri ab ; botri ab ra peyda kon
+gard shey, shey koochak soorati ; donbal -e shey -e koochak -e soorati be- gard
+gard dastoorpokht internet, dastoorpokht tiramisu ; donbal -e dastoorpokht -e tiramisu dakhel -e internet be- gard
+barrasi agar, agar shohar khane, shohar man, agar panj ; barrasi kon agar shohar -e man saat -e panj dakhel -e khane bashad # “saat” means hour/oclock and it is not possible to say without “saat”.
+
+
+##############################################
+###############################
+########  Portuguese (from Brasil)    ############
+###############################
+abra porta; abra a porta
+atenda telefone; atenda o telefone
+águe plantas ; águe as plantas
+limpe mesa ; limpe a mesa
+
+pegue café, sirva café na caneca ; pegue o café e sirva -o na caneca
+limpe mesa, coloque caneca nela mesa ; limpe a mesa e coloque a caneca nela
+coloque caneca à esquerda ; coloque a caneca à esquerda
+
+pegue telefone, traga telefone -me ; pegue e traga -me o telefone
+ir banheiro ; ir ao banheiro
+
+faça chá -me ; faça -me um chá
+conte piada -me ; conte -me uma piada
+faça sanduíche -me, sanduíche tomates ; faça -me um sanduíche com tomates
+traga jornal -me, jornal na mesa, mesa na cozinha ; traga -me o jornal que está na mesa na cozinha
+traga vestido -me, vestido azul, vestido no armário ; traga -me o vestido azul que está no armário
+traga caneta -me, caneta azul, caneta lado xícara, xícara vermelha ; traga -me a caneta azul que está ao lado da xícara vermelha
+dance para mim, limpe chão, limpe mesmo tempo ; dance para mim e limpe o chão ao mesmo tempo
+
+desligue luz ; desligue a luz
+
+ache garrafa, garrafa água ; ache a garrafa de água
+procure objeto, objeto pequeno rosa ; procure pelo pequeno objeto rosa
+procure receita internet, receita na tiramissu ; procure a receita de tiramissu na internet
+
+verifique se, se marido casa, marido meu, se cinco ; verifique se meu marido estará em casa às cinco
+
+
+###############################
+########  MANDARIN (simplified Chinese)  ############
+###############################
+#1. open door ; open the door
+开 门;开 那 -道 门
+#2. answer phone ; answer the phone
+接 电话;接 那 -通 电话
+#3. water plants ; water the plants
+浇 植物;浇 那 -棵 植物
+#4. clear table ; clear the table
+清理 桌子;清理 那 -张 桌子
+#5. take coffee, pour coffee into mug ; take the coffee and pour it into the mug
+拿起 咖啡,倒 咖啡 进 杯子;拿起 那 -杯 咖啡 再 把 它 倒 进 杯子 里
+#6. clean table, put mug on table ; clean the table and put the mug on it
+清理 桌子,放 杯子 上 桌子 ;清理 那 -张 桌子 再 把 那 -个 杯子 放 在 桌子 上
+#7. put mug on left ; put the mug on the left
+放 杯子 在 左边;把 那 -个 杯子 放 在 左边
+#8. get phone, bring phone me ; get the phone and bring it to me
+取 手机,拿 手机 我;取 手机 再 把 它 拿 给 我
+#9. go to bathroom ; go to the bathroom
+去 浴室;去 那 -间 浴室 #"to" is missing in mandarin
+#10. make tea me; make me some tea
+泡 茶 我;给 我 泡 点 茶
+#11. tell joke me ; tell me a joke
+讲 笑话 我;给 我 讲 一个 笑话
+#12. make sandwich me, sandwich tomatoes ; make me a sandwich with tomatoes
+做 三文治 我,三文治 番茄;给 我 做 一份 番茄 三文治
+#13. bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
+取 报纸 我,报纸 上 桌子,桌子 里 厨房;给 我 取 在 厨房 里 桌子 上 的 报纸
+#14. bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
+取 衣服 我,衣服 蓝色,衣服 里 衣橱;给 我 取 在 衣橱 里 的 蓝色 衣服
+#15. bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
+取 原子笔 我,原子笔 蓝色,原子笔 旁边 杯子,杯子 红色;给 我 取 在 红色 杯子 旁边 的 蓝色 原子笔
+#16. dance for me, clean floor, clean same time ; dance for me and clean the floor at the same time
+跳舞 给 我 ,清理 地板,清理 同 时;给 我 跳舞 的 同 时 清理 地板
+#17. switch off light ; switch off the light
+关 灯;关 那 -盏 灯 #switch is not used here, it is literally "off light"
+#18. find bottle, bottle water ; find the bottle of water
+寻找 瓶子,瓶子 水;寻找 那 -支 水 瓶子
+#19. search object, object small pink ; search for the small pink object
+寻找 物体,物体 小件 粉红色;寻找 那 -个 小件 的 粉红色 物体
+#20. search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
+搜寻 食谱 网上,食谱 提拉米苏;在 网上 搜寻 提拉米苏 食谱
+#21. check if, if husband home, husband my, if five ; check if my husband is at home at five
+检查 是不是,是不是 丈夫 家,丈夫 我的,是不是 五点钟;检查 我的 丈夫 是不是 五点钟 有 在 家
+
+###############################
+########  MANDARIN (Traditional Chinese) ############
+###############################
+#1. open door ; open the door
+開 門;開 那 -道 門
+#2. answer phone ; answer the phone
+接 電話;接 那 -通 電話
+#3. water plants ; water the plants
+澆 植物;澆 那 -棵 植物
+#4. clear table ; clear the table
+清理 桌子;清理 那 -張 桌子
+#5. take coffee, pour coffee into mug ; take the coffee and pour it into the mug
+拿起 咖啡,倒 咖啡 進 杯子;拿起 那 -杯 咖啡 再 把 它 倒 進 杯子 裡
+#6. clean table, put mug on table ; clean the table and put the mug on it
+清理 桌子,放 杯子 上 桌子 ;清理 那 -張 桌子 再 把 那 -個 杯子 放 在 桌子 上
+#7. put mug on left ; put the mug on the left
+放 杯子 在 左邊;把 那 -個 杯子 放 在 左邊
+#8. get phone, bring phone me ; get the phone and bring it to me
+取 手機,拿 手機 我;取 手機 再 把 它 拿 給 我
+#9. go to bathroom ; go to the bathroom
+去 浴室;去 那 -間 浴室
+#10. make tea me; make me some tea
+泡 茶 我;給 我 泡 點 茶
+#11. tell joke me ; tell me a joke
+講 笑話 我;給 我 講 一個 笑話
+#12. make sandwich me, sandwich tomatoes ; make me a sandwich with tomatoes
+做 三文治 我,三文治 番茄;給 我 做 一份 番茄 三文治
+#13. bring newspaper me, newspaper on table, table in kitchen ; bring me the
+取 報紙 我,報紙 上 桌子,桌子 裡 廚房;給 我 取 在 廚房 裡 桌子 上 的 報紙
+#14. bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
+取 衣服 我,衣服 藍色,衣服 裡 衣櫥;給 我 取 在 衣櫥 裡 的 藍色 衣服
+#15. bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
+取 原子筆 我,原子筆 藍色,原子筆 旁邊 杯子,杯子 紅色;給 我 取 在 紅色 杯子 旁邊 的 藍色 原子筆
+#16. dance for me, clean floor, clean same time ; dance for me and clean the floor at
+跳舞 給 我 ,清理 地板,清理 同 時;給 我 跳舞 的 同 時 清理 地板
+#17. switch off light ; switch off the light
+關 燈;關 那 -盞 燈
+#18. find bottle, bottle water ; find the bottle of water
+尋找 瓶子,瓶子 水;尋找 那 -支 水 瓶子
+#19. search object, object small pink ; search for the small pink object
+尋找 物體,物體 小件 粉紅色;尋找 那 -個 小件 的 粉紅色 物體
+#20. search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
+搜尋 食譜 網上,食譜 提拉米蘇;在 網上 搜尋 提拉米蘇 食譜
+#21. check if, if husband home, husband my, if five ; check if my husband is at home at five
+檢查 是不是,是不是 丈夫 家,丈夫 我的,是不是 五點鐘;檢查 我的 丈夫 是不是 五點鐘 有 在 家
+
+
+
+###############################
+########  Malay ############
+###############################
+# Note: The article ‘the’ is also being replaced by ‘that‘ in Malay. ‘Open the door‘ is translated to
+# ‘open that door‘. ‘nya‘ = ‘it‘, sometimes it connects with the verb and sometimes it is
+# concatenated at the end of the sentence.
+
+#1. open door ; open the door
+buka pintu; buka -kan pintu itu
+#2. answer phone ; answer the phone
+jawab telefon; jawab -kan panggilan telefon itu
+#3. water plants ; water the plants
+siram tumbuhan; siram -kan tumbuhan itu
+#4. clear table ; clear the table
+ruang meja; ruang -kan meja itu
+#5. take coffee, pour coffee into mug ; take the coffee and pour it into the mug
+ambil kopi, tuang kopi ke dalam cawan; ambil -kan kopi itu dan tuang -kan -nya ke dalam cawan
+#6. clean table, put mug on table ; clean the table and put the mug on it
+kemas meja, letak cawan ke atas meja; kemas -kan meja itu dan letak -kan cawan itu ke atas nya
+#7. put mug on left ; put the mug on the left
+letak cawan ke kiri; letak -kan cawan itu ke arah kiri
+#8. get phone, bring phone me ; get the phone and bring it to me
+dapat telefon, ambil telefon saya; dapat -kan telefon itu dan ambil -kan -nya untuk saya
+#9. go to bathroom ; go to the bathroom
+pergi ke bilik mandi; pergi ke bilik mandi itu #bilik mandi is bathroom, but needs 2 words
+#10. make tea me; make me some tea
+buat teh saya; buat -kan saya sedikit teh
+#11. tell joke me ; tell me a joke
+beritahu jenaka saya; beritahu -kan saya sebuah jenaka
+#12. make sandwich me, sandwich tomatoes ; make me a sandwich with tomatoes
+buat roti lapis saya, roti lapis tomato; buat -kan saya satu roti lapis tomato #roti lapis means sandwich (2 words)
+#13. bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
+ambil surat khabar saya, surat khabar atas meja, meja dalam dapur; ambil -kan saya surat khabar itu yang berada di atas meja di dalam dapur #surat khabar is newspaper
+#14. bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
+ambil pakaian saya, pakaian biru, pakaian dalam almari; ambil -kan pakaian biru saya yang berada di dalam almari
+#15. bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
+ambil pen saya, pen biru, pen sebelah cawan, cawan merah; ambil -kan saya pen biru itu yang berada di sebelah cawan merah
+#16. dance for me, clean floor, clean same time ; dance for me and clean the floor at the same time
+menari untuk saya, bersih lantai, bersih sama masa ; menari untuk saya dan bersih -kan lantai pada masa yang sama
+#17. switch off light ; switch off the light
+mati lampu; mati -kan lampu itu #mati means switch off
+#18. find bottle, bottle water ; find the bottle of water
+cari botol, botol air; cari -kan botol air itu
+#19. search object, object small pink ; search for the small pink object
+cari objek, objek kecil merah jambu; cari -kan objek kecil yang berwarna merah jambu itu
+#20. search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
+cari resipi internet, resipi tiramisu; cari -kan resipi tiramisu itu di internet
+#21. check if, if husband home, husband my, if five ; check if my husband is at home at five
+memeriksa jikalau, jikalau suami rumah, suami saya, jikalau lima; memeriksa -kan jikalau suami saya berada di rumah pada pukul lima
+
+
+#############################
+########  TURC   ############
+###############################
+### NEW FROM 2017-02-13
+
+# Notes: some accents  on letter "g" or absence of point on "i" may be missing, but it does not change the processing of the program.
+
+aç kapi ; kapi -yi aç
+cevap ver telefon ; telefon -a cevap ver
+sula bitkiler ; bitkiler -i sula
+temizle masa ; masa -yi temizle
+al kahve, koy kahve fincan ; kahve -yi al -ip fincan -a koy
+temizle masa, koy fincan üstünde masa ; masa -yi temizle -yip fincan -i üstünde koy
+koy fincan -da sol ; fincan -i sol -da koy
+al telefon, getir telefon bana ;  telefon -u al -ip bana getir
+git tuvalet ; tuvalet -e git
+hazirla çay bana; bana çay hazirla #may sound strange because making tea is never for one person usually in Turkish
+söyle şaka bana ; bana bir şaka söyle
+hazirla sandviç bana, sandviç domates ; domates -li bir sandviç bana hazirla
+getir gazete bana, gazete üstünde masa, masa -da mutfak ;  mutfak -da olan masa -nin üstünde -ki gazete bana getir ### mutfakta: dans la cuisine ###
+getir giyim bana, giyim mavi, giyim -ta dolap; dolap -ta -ki mavi giyim bana getir
+getir kalem bana, kalem mavi, fincan -ile kalem, fincan kirmizi ; bana mavi kalem -i kirmizi fincan -ile getir
+dans ed için benim, temizle ev, temizle ayni zaman ; benim için dans ed -ip ayni zaman -da ev -i temizle
+kapat işig ; işig -i kapat
+bul şişe, şişe su ; su şişe -yi bul
+al şey, şey pembe küçük ; küçük pembe şey -i al # "al" = "take", "buy", but can also mean "bring". "search" is more like ara(mak). "Bul(mak)" = "find"
+ara internet tarif, tarif tiramisu ; internet -te tiramisu tarif -i ara
+kontrol et, koca ev, koca -m, saat beş ; koca -m ev -de saat beş -te olacagina kontrol et # "if" could be translated by "eger", but it is infrequent usage. Conditional is enough.
+
+#######################
+########  Bulgarian ############
+###############################
+
+# open door ; open the door
+отвори врата ; отвори врата -та
+# answer phone ; answer the phone
+вдигни телефон ; вдигни телефон -а
+#water plants ; water the plants
+полей цветя ; полей цветя -та
+#clear table ; clear the table
+почисти маса ; почисти маса -та
+#take coffee, pour coffee into mug ; take the coffee and pour it into the mug
+вземи кафе, излей кафе в чаша ; вземи кафе -то и го излей в чаша -та
+#clean table, put mug on table ; clean the table and put the mug on it
+почисти маса, сложи чаша на маса ; почисти маса -та и сложи чаша -та на нея
+#put mug on left ; put the mug on the left
+сложи чаша в ляво ; сложи чаша -та в ляво
+#get phone, bring phone me ; get the phone and bring it to me
+вземи телефон, донеси телефон ми ; вземи телефон -а и ми го донеси
+#go to bathroom ; go to the bathroom
+отивам до баня ; отивам до баня -та
+#make tea me; make me some tea
+направи чай ми ; направи ми някакъв чай
+#tell joke me ; tell me a joke
+кажи шега ми ; кажи ми шега
+# make sandwhich me, sandwhich tomatoes ; make me a sandwhich with tomatoes
+направи сандвич ми, сандвич домати ; направи ми сандвич с домати
+#bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
+донеси вестник ми, вестник на маса, маса в кухня ; донеси ми вестник -а , който е на маса -та в кухня -та
+#bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
+донеси рокля ми, рокля синя, рокля в дрешник ; донеси ми синя -та рокля , която е в дрешник -а
+#bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
+донеси молив ми, молив синя, молив зад чаша, чаша червена ; донеси ми синя молив зад червена -та чаша
+#dance for me, clean floor, clean same time ; dance for me and clean the floor at the same time
+танцувай за мен, почисти под, почисти също време ; танцувай за мен и почисти под -а в също -то време
+#switch off light ; switch off the light
+загаси светлина ; загаси светлина -та
+#find bottle, bottle water ; find the bottle of water
+намери бутилка, бутилка вода ; намери бутилка -та с вода
+#search object, object small pink ; search for the small pink object
+намери предмет, предмет малк розов ; намери малк -ия розов предмет
+#search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
+намери рецепта интернет, рецепта тирамису ; намери рецепта -та за тирамису в интернет
+#check if, if husband home, husband my, if five ; check if my husband is at home at five
+провери дали, дали съпруг вкъщи, съпруг мой, дали пет ; провери дали мой съпруг е вкъщи в пет
+
+
+</train data>
+
+<test data>
+
+</test data>

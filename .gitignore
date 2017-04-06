@@ -90,3 +90,4 @@ ENV/
 
 # Perso
 *~
+.DS_Store
