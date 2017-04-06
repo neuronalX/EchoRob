@@ -1,3 +1,6 @@
+################## ACKNOWLEDGMENTS FOR THESE CORPORA ################## We thank Ikram Chraibi Kaadoud, Pramod Kaushik, Louis Devers, and Iris Wieser for ### their ideas of sentences for the home corpora. We also greatly thank Francisco ### Cruz, Paul Gue ́rin, Olatz Pampliega, Miguel Lopez Cuinã, Thalita Firmo Drumond, ### Bhargav Teja Nallapu, Antoaneta Genova, William Schueller, Giulia Fois, Mohammad ### Ali Zamani, Chandrakant Bothe, Hwei Geok Ng for their translations in different ### languages of the 21 sentences-meaning pairs.
+#####################################################################
+
 <train data>
 
 ###############################
