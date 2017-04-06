@@ -1,0 +1,205 @@
+### Digits after some words are just use by the preprocessing step to distinguish
+### several identical words that appear in the same sentence.
+### The neural network does not see them, nor use them, because they are removed
+### at the preprocessing step.
+
+<close class words>
+#TODO
+</close class words>
+<train data>
+### enC
+point circle;point to the circle
+grasp cross;grasp the cross
+touch cross;touch the cross
+put cross right;put the cross right
+push triangle left;push the triangle left
+point triangle, grasp circle;point to the triangle and grasp the circle
+point triangle, touch circle;point to the triangle touch the circle
+grasp cross, point circle;grasp the cross point to the circle
+touch cross, point circle;touch the cross point to the circle
+grasp circle1, point circle2;grasp the circle1 point to the circle2
+touch circle1, point circle2;touch the circle1 then point to the circle2
+point triangle1, grasp triangle2;point to the triangle1 grasp the triangle2
+point triangle1, touch triangle2;point to the triangle1 touch the triangle2
+grasp1 triangle, grasp2 cross;grasp1 this triangle grasp2 the cross
+touch1 triangle, touch2 cross;touch1 the triangle touch2 the cross
+point1 cross, point2 circle;point1 to the cross point2 to the circle
+point cross, point cross;point to the cross twice
+grasp circle, grasp circle;grasp the circle twice
+touch circle, touch circle;touch the circle twice
+point triangle, put circle middle;point to the triangle and then put the circle in the middle
+put cross left, grasp circle;put the cross left and grasp the circle
+put cross left, touch circle;put the cross left and touch the circle
+put cross1 right, point cross2;put the cross1 right and point to the cross2
+grasp triangle, put triangle left;grasp the triangle and then put it on the left
+touch triangle, put triangle left;touch the triangle then put it on the left
+put1 triangle middle, put2 cross right;put1 the triangle in the middle and then put2 the cross on the right
+put circle left, push cross middle;put the circle left and push the cross to the middle
+push circle left, put cross middle;push the circle left put the cross middle
+push circle middle, put circle right;push the circle to the middle and then put it on the right
+put triangle left, push triangle middle;put the triangle on the left then push it to the middle
+push1 cross right, push2 triangle middle;push1 the cross to the right and push2 the triangle to the middle
+put1 triangle middle, put2 circle left;put1 the triangle in the middle put2 the circle on the left
+put cross1 right1, push cross2 right2;put the cross1 on the right1 then push the cross2 to the right2
+push triangle center, put circle middle;push the triangle to the center and put the circle in the middle
+push1 triangle left1, push2 cross left2;push1 the triangle to the left1 then push2 the cross to the left2
+put1 circle1 right1, put2 circle2 right2;put1 the circle1 to the right1 and put2 the circle2 to the right2
+put1 triangle1 middle, put2 triangle2 left;put1 the triangle1 in the middle then put2 the triangle2 on the left
+push1 circle1 right, push2 circle2 left;push1 the circle1 to the right then push2 the circle2 to the left
+### enK
+point circle;point to the circle
+grasp cross;grasp the cross
+touch cross;touch the cross
+move cross right;move the cross to the right
+push triangle left;push the triangle over to the left
+point triangle, grasp circle;point to the triangle and grasp the circle
+point triangle, touch circle;point to the triangle and touch the circle
+grasp cross, point circle;grasp the cross and point to the circle
+touch cross, point circle;touch the cross and point to the circle
+grasp circle, point circle;grasp the circle and then point to it
+touch circle, point circle;touch the circle and then point to it
+point triangle, grasp triangle;point to the triangle and then grasp it
+point triangle, touch triangle;point to the triangle and then touch it
+grasp1 triangle, grasp2 cross;grasp1 the triangle and then grasp2 the cross
+touch1 triangle, touch2 cross;touch1 the triangle then touch2 the cross
+point1 cross, point2 circle;point1 to the cross then point2 to the circle
+point cross, point cross;point to the cross twice
+pick circle, pick circle;pick up the circle twice
+touch circle, touch circle;touch the circle twice
+point triangle, move circle middle;point to the triangle and then move the circle to the middle
+push cross left, grasp circle;push the cross to the left and then grasp the circle
+push cross left, touch circle;push the cross to the left then touch the circle
+push cross right, point cross;push the cross to the right then point to it
+grasp triangle, move triangle left;grasp the triangle then move it left
+touch triangle, move triangle left;touch the triangle then move it to the left
+move triangle center, move cross right;move the triangle to the center and the cross to the right
+move circle left, move cross middle;move the circle to the left then the cross to the middle
+push circle left, move cross middle;push the circle to the left and move the cross to the middle
+push circle middle, put circle right;push the circle to the middle and then put it to the right
+put triangle left, push triangle middle;put the triangle on the left and then push it in the middle
+push1 cross right, push2 triangle middle;push1 the cross to the right and push2 the triangle to the middle
+put1 triangle middle, put2 circle left;put1 the triangle in the middle and put2 the circle on the left
+put cross right1, push cross right2;put the cross on the right1 and push it back to the right2
+push triangle middle1, put circle middle2;push the triangle in the middle1 and put the circle in the middle2
+push1 triangle left1, push2 cross left2;push1 the triangle to the left1 and push2 the cross to the left2
+put circle right1, put cross right2;put the circle on the right1 and the cross on the right2
+put1 triangle middle, put2 triangle left;put1 the triangle in the middle then put2 it on the left
+push1 circle1 right, push2 circle2 left;push1 the circle1 to the right then push2 the circle2 to the left
+### enO
+point circle;point the circle
+grasp cross;grasp the cross
+touch cross;touch the cross
+put cross right;put the cross on the right
+push triangle left;push the triangle on the left
+point triangle, grasp circle;point the triangle and grasp the circle
+point triangle, touch circle;point the triangle and touch the circle
+grasp cross, point circle;grasp the cross and point the circle
+touch cross, point circle;touch the cross and point the circle
+grasp circle, point circle;grasp the circle and after point it
+touch circle, point circle;touch the circle and point it
+point triangle, grasp triangle;point the triangle and after grasp it
+point triangle, touch triangle;point the triangle and touch it
+grasp1 triangle, grasp2 cross;grasp1 the triangle and after grasp2 the cross
+touch1 triangle, touch2 cross;touch1 the triangle and after touch2 the cross
+point cross, point circle;point the cross and the circle
+point cross, point cross;point two times the cross
+grasp circle, grasp circle;grasp the circle two times
+touch circle, touch circle;touch the circle two times
+point triangle, push circle middle;point the triangle and after push the circle on the middle
+put cross left, grasp circle;put the cross on the left side and after grasp the circle
+put cross left, touch circle middle;put the cross on the left and touch the circle on the middle
+put cross right, point cross;put the cross on the right and point it
+grasp triangle, put triangle left;grasp the triangle and after put it on the left
+touch triangle, put triangle left;touch the triangle and put it on the left
+put triangle middle, put cross right;put the triangle on the middle and the cross on the right
+put circle left, push cross middle;put the circle on the left and push the cross on the middle
+push circle left, put cross middle;push the circle on the left and put the cross on the middle
+push circle middle, put circle right;push the circle on the middle and put it on the right
+put triangle left, push triangle middle;put the triangle on the left and after push it on the middle
+push cross right, push triangle middle;push the cross on the right and the triangle on the middle
+put triangle middle, put circle left;put the triangle on the middle and circle on the left
+put cross right, push cross;put the cross on the right and push it
+push triangle middle, push circle middle;push the triangle and the circle on the middle
+push triangle left, push cross left;push the triangle and the cross on the left
+put circle right, put cross right;put the circle and the cross on the right
+put1 triangle1 middle, put2 triangle2 left;put1 first the triangle1 on the middle and after put2 the triangle2 on the left
+put triangle middle, put triangle left;put first the triangle on the middle and after on the left
+### enG
+point circle left;point the circle on my left
+grasp cross;please grasp the red cross
+hit cross;hit the cross
+put cross right;put the cross on my right
+push triangle left;push the triangle on my left
+point triangle, grasp circle;point the triangle and grasp the circle
+point triangle, hit circle;point the triangle and hit the circle
+grasp cross, point circle;grasp the cross and point the circle
+hit cross, point circle;hit the cross and point the circle
+grasp circle, point circle;grasp and point the circle
+hit circle1, point circle2;hit the circle1 and point the circle2
+point triangle, grasp triangle;point the triangle and grasp it
+point triangle, hit triangle;point the triangle and hit it
+grasp1 triangle, grasp2 cross;grasp1 the triangle and grasp2 the cross
+hit triangle, hit cross;hit the triangle and then the cross
+point1 cross, point2 circle;point1 the red cross and point2 the circle
+point cross, point cross;point twice the cross
+grasp circle, grasp circle;grasp twice the circle
+hit circle, hit circle;hit twice the blue circle
+point triangle, put circle middle;point at the triangle and then put the circle to the middle
+push cross left, grasp circle;push the cross on my left and then grasp the circle
+put cross left, hit circle;put the red cross to the left and hit the blue circle
+put cross right, point cross;put the red cross to the right and point at it
+grasp triangle, put triangle left;grasp the triangle and then put it to the left
+hit triangle, put triangle left;hit the triangle and put it to the left
+put triangle middle, put cross right;put the triangle to the middle and then the cross to the right
+put circle left, push cross middle;put the circle to the left and push the cross to the middle
+push circle left, put cross middle;push the blue circle to the left and put the red cross to the middle
+push object middle, put object right;push the blue object to the middle and then put it to the right again
+put triangle left, push triangle middle;put the triangle to the left and then push it to the middle
+push1 cross right, push2 triangle middle;push1 the red cross to the right and then push2 the triangle to the middle
+put triangle middle, put circle left;put the triangle to the middle and the circle to the left
+put cross right, do u-turn;put the cross to the right and do a u-turn
+push triangle middle1, put circle middle2;push the triangle to the middle1 and put the circle to the middle2
+push1 triangle left1, push2 cross left2;push1 the triangle to the left1 and push2 the cross to the left2
+put objects right;put both objects to the right
+put triangle right;put the triangle to the right in two steps
+push circle1 right, push circle2 left;push the circle1 to the right and the circle2 to the left
+### enA
+point circle;point the circle
+grasp cross;grasp the cross
+touch cross;touch the cross
+put cross right;put the cross to the right
+push triangle left;push the triangle to the left
+point triangle, grasping circle;point the triangle before grasping the circle
+point triangle, touching circle;point the triangle before touching the circle
+grasp cross, pointing circle;grasp the cross before pointing the circle
+touch cross, pointing circle;touch the cross before pointing at the circle
+grasp cross, pointing cross;grasp the cross before pointing at it
+touch circle, point circle;touch the circle then point at it
+point triangle, grasp triangle;point to the triangle and then grasp it
+pointed triangle, touch triangle;touch the triangle after having pointed at it
+grasp triangle, grasping cross;grasp the triangle before grasping the cross
+touch triangle, touching cross;touch the triangle before touching the cross
+pointed cross, point circle;point at the circle after having pointed at the cross
+point cross, point cross;point twice at the cross
+grasp circle, grasp circle;grasp the circle twice
+touch1 circle, touch2 circle;touch1 the circle then touch2 it again
+point triangle, putting circle middle;point the triangle before putting the circle in the middle
+push cross left, grasping circle;push the cross to the left before grasping the circle
+touch circle, pushed cross left;touch the circle after having pushed the cross to the left
+push cross right, point cross;push the cross to the right then point at it
+grasp triangle, put triangle left;grasp the triangle before having put it to the left
+touch triangle, put triangle left;touch the triangle then put it to the left
+put triangle middle, push cross right;put the triangle in the middle then push the cross to the right
+put circle left, pushing cross middle;put the circle to the left before pushing the cross to the middle
+push circle left, put cross middle;push the circle to the left then put the cross in the middle
+push circle middle, put circle right;push the circle to the middle then put it back to the right
+put triangle left, push triangle middle;put the triangle to the left then push it to the middle
+push1 cross right, push2 triangle middle;first push1 the cross to the right then push2 the triangle to the middle
+put1 triangle middle, put2 circle left;firstly put1 the triangle in the middle then put2 the circle to the left
+put cross right, push cross around;put the cross to the right then push it around
+push triangle middle1, put circle middle2;push the triangle in the middle1 then put circle in the middle2
+push triangle left, push cross left;push the triangle and the cross to the left
+put circle right, put cross right;put both the circle and the cross to the right
+put1 triangle1 middle, put2 triangle2 left;put1 the triangle1 in the middle then put2 the triangle2 to the left
+push circle right, pushing circle left;push the circle to the right before pushing it to the left
+</train data>
