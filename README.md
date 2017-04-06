@@ -13,6 +13,8 @@ Click on the "launch Binder" button, and then run either:
 - en Français: [Minimal ESN - FR.ipynb](https://github.com/RomainPastureau/Reservoir-Jupyter/blob/master/Minimal%20ESN%20-%20FR.ipynb)
 
 ## Corpora
+Most copora are available in the folder [/corpora](/corpora).
+
 ### 15 languages corpora is available here:
 [2017_TCDS_15languages.txt](/corpora/2017_TCDS_15languages.txt)
 
