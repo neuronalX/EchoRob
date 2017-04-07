@@ -19,10 +19,11 @@ Most copora are available in the folder [/corpora](/corpora).
 [2017_TCDS_15languages.txt](/corpora/2017_TCDS_15languages.txt)
 
 ### Bilingual corpus on English and French obtain by asking 5 users of each language to give command instructions to robots:
-- [2015_English_5subjects_robot_instructions](/corpora/2015_English_5subjects_robot_instructions.csv)
-- [2015_French_5subjects_robot_instructions](/corpora/2015_French_5subjects_robot_instructions.csv)
+These corpora were used in the _CoCo @ NIPS 2015 workshop_:
+- English: [2015_English_5subjects_robot_instructions](/corpora/2015_English_5subjects_robot_instructions.csv)
+- French: [2015_French_5subjects_robot_instructions](/corpora/2015_French_5subjects_robot_instructions.csv)
 
-These corpora were used in the _CoCo @ NIPS 2015 workshop_
+
 
 ### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
 [xavierhinaut.com/downloads](http://www.xavierhinaut.com/downloads)
