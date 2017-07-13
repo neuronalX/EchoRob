@@ -1,6 +1,6 @@
 def get_closed_class_words():
     """
-    List of closed class words for each corpus.
+    List of closed class words (i.e. Function Words -- FW) for each corpus.
     They have been extracted automatically, based on the mearning parts of each corpus. In a few cases, some adjustment were made.
     """
     if LANGUAGE == "English":
