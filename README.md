@@ -2,7 +2,7 @@
 Recurrent Neural Network for Syntax Learning with Flexible Representations for Robotic Architectures
 
 ## Want to be updated?
-Please drop me an email to be updated when a new feature, new corpus or new version of the model is available:
+Drop me an email if you want to be updated by new features, corpa or versions of the model are available:
 xavier dot hinaut at inria dot fr
 
 ## Intro on Reservoir Computing
