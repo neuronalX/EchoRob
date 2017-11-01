@@ -12,6 +12,8 @@
 ###############################
 ########  ENGLISH  ############
 ###############################
+## semantic words and close class words at the same time: for, on, to
+
 open door ; open the door
 answer phone ; answer the phone
 water plants ; water the plants
