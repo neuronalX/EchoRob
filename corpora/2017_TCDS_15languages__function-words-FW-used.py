@@ -4,7 +4,6 @@ def get_closed_class_words():
     They have been extracted automatically, based on the mearning parts of each corpus. In a few cases, some adjustment were made.
     """
     if LANGUAGE == "English":
-        # return ['a', 'is', 'which', 'with', 'after', 'and', 'before', 'it', 'the', 'then', 'you']
         return ['a' , 'and' , 'at' , 'is' , 'it' , 'of' , 'some' , 'that' , 'the' , 'which' , 'with'] # 'for', 'on',  'to' are considered as semantic words (SW)
     if LANGUAGE == "German":
         return ['das', 'dem', 'den', 'die', 'ein', 'einen', 'es', 'etwas', 'ihn', 'ist', 'mit', 'um', 'und', 'zu', 'zur', ','] #'für', #im
