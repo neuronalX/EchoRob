@@ -4,13 +4,14 @@ def get_closed_class_words():
     They have been extracted automatically, based on the mearning parts of each corpus. In a few cases, some adjustment were made.
     """
     if LANGUAGE == "English":
-        return ['a', 'is', 'which', 'with', 'after', 'and', 'before', 'it', 'the', 'then', 'you']
+        # return ['a', 'is', 'which', 'with', 'after', 'and', 'before', 'it', 'the', 'then', 'you']
+        return ['a' , 'and' , 'at' , 'is' , 'it' , 'of' , 'some' , 'that' , 'the' , 'which' , 'with'] # 'for', 'on',  'to' are considered as semantic words (SW)
     if LANGUAGE == "German":
         return ['das', 'dem', 'den', 'die', 'ein', 'einen', 'es', 'etwas', 'ihn', 'ist', 'mit', 'um', 'und', 'zu', 'zur', ','] #'für', #im
     if LANGUAGE == "Spanish":
         return ['la', 'el', 'las', 'la', '-lo', 'y', 'ella', 'una', 'un', 'con', 'que', 'está', 'a', 'al', 'de']
     if LANGUAGE == "French":
-        return ['à', 'au', 'avec', 'la', 'le', 'les', 'en', 'est', 'et', "d'", 'de', 'des', 'du', 'qui', 'sur', 'un', 'une']
+        return ['à', 'au', 'avec', "d'", 'de', 'des', 'du', 'en', 'est', 'et', 'la', 'le', 'les', 'qui', 'un', 'une'] # 'dans', 'sur', are considered as semantic words (SW)
     if LANGUAGE == "Italian":
         return ['a', 'alle', 'le', 'e', '-ci', 'alla', 'la', 'i', "d'", '-lo', 'al', 'che', 'una', 'si', 'un', 'del', 'il', 'in', 'é', 'con']
     if LANGUAGE == "Catalan":
