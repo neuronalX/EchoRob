@@ -1,10 +1,11 @@
-################## ACKNOWLEDGMENTS FOR THESE CORPORA ################## We thank Ikram Chraibi Kaadoud, Pramod Kaushik, Louis Devers, and Iris Wieser for
+################## ACKNOWLEDGMENTS FOR THESE CORPORA ################################
+### We thank Ikram Chraibi Kaadoud, Pramod Kaushik, Louis Devers, and Iris Wieser for
 ### their ideas of sentences for the home corpora. We also greatly thank Francisco
-### Cruz, Paul Guérin, Olatz Pampliega, Miguel López Cuiña, Thalita Firmo Drumond, 
+### Cruz, Paul Guérin, Olatz Pampliega, Miguel López Cuiña, Thalita Firmo Drumond,
 ### Bhargav Teja Nallapu, Antoaneta Genova, William Schueller, Giulia Fois, Mohammad
 ### Ali Zamani, Chandrakant Bothe, Hwei Geok Ng for their translations in different
 ### languages of the 21 sentences-meaning pairs.
-#####################################################################
+#####################################################################################
 
 <train data>
 
@@ -26,7 +27,7 @@ go to bathroom ; go to the bathroom
 
 make tea me; make me some tea
 tell joke me ; tell me a joke
-make sandwhich me, sandwhich tomatoes ; make me a sandwhich with tomatoes #old one with error: make sandwhich me, sandwhich tomatoes ; make me a sandwhich tomatoes
+make sandwhich me, sandwhich tomatoes ; make me a sandwhich with tomatoes
 bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
 bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
 bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
@@ -75,7 +76,7 @@ such Rezept Internet, Rezept Tiramisu ; such das Rezept für Tiramisu im Interne
 
 
 ###############################
-########  SPANISH   ############
+########  SPANISH   ###########
 ###############################
 abre puerta ; abre la puerta
 contesta teléfono ; contesta el teléfono
@@ -91,7 +92,7 @@ di broma -me ; di -me una broma
 prepara sandwich -me, sandwich tomates ; prepara -me un sandwich con tomates
 trae periódico -me, periódico sobre mesa, mesa en cocina ; trae -me el periódico que está sobre la mesa en la cocina
 trae vestido -me, vestido azul, vestido en armario ; trae -me el vestido azul que está en el armario
-trae lápiz -me, lápiz azul, lápiz junto taza, taza roja ; trae -me el lápiz azul junto a la taza roja #old: "junto a": trae lápiz -me, lápiz azul, lápiz junto a taza, taza roja ; trae -me el lápiz azul junto a la taza roja
+trae lápiz -me, lápiz azul, lápiz junto taza, taza roja ; trae -me el lápiz azul junto a la taza roja
 baila para mi, limpia piso, limpia mismo tiempo ; baila para mi y limpia el piso al mismo tiempo
 apaga luz ; apaga la luz
 encuentra botella, botella agua ; encuentra la botella de agua
@@ -200,7 +201,7 @@ comprova si, si marit casa, marit meu, si cinc ; comprova si el meu marit està 
 
 
 ###############################
-########  Marathi ############
+########  Marathi #############
 ###############################
 ughad darvaja ; darvaja ughad
 uchal phone ; phone uchal
@@ -244,64 +245,43 @@ banao mujhay sandwich, tamatar sandwich;mujhay aek tamatar wala sandwich banao
 lavo mujhay akhbaar, mez akhbaar, rasoyi ghar mez;mujhay rasoyi ghar may mez par akhbaar lavo
 lavo mujhay poshaak, neel rang poshaak, katori poshaak;mujhay katori may neel rang poshaak lavo
 lavo mujhay kalam, neel rang kalam, cup baaju kalam, laal cup;mujhay laal cup ke baaju neel rang kalam lavo
-naacho mayray liye, saaf karo pharsh, saaf karo aek-hee samay;aek-hee samay mayray liye naacho aur pharsh saaf karo #xav: removed "karo" and "aek" in the left part
+naacho mayray liye, saaf karo pharsh, saaf karo aek-hee samay;aek-hee samay mayray liye naacho aur pharsh saaf karo
 bujhaa dho batthi;batthi bujhaa dho
 doondo bothal, paani bothal ;paani ka bothal doondo
 doondo vasthu, chotay vasthu, gulaabi vasthu;chotay gulaabi vasthu doondo
 doondo nuskha, internet nuskha, tiramisu nuskha;internet par tiramisu ka nuskha doondo
-jaanch agar, agar ghar pathi, mera pathi, agar paanch bajay;jaanch agar mera pathi paanch bajay ghar par hain #jaanch agar, agar pathi ghar, pathi mera, agar paanch bajay;jaanch agar mera pathni paanch bajay ghar par hain
+jaanch agar, agar ghar pathi, mera pathi, agar paanch bajay;jaanch agar mera pathi paanch bajay ghar par hain
 
 ###############################
-########  Basque    ############
+########  Basque    ###########
 ###############################
-#  open door ; open the door
-ate ideki ; ate -a ideki #Paul : Ate = porte, atea = la porte , le ‘a’ correspond à l’article défini
-#  answer phone ; answer the phone
+ate ideki ; ate -a ideki # Ate = porte, atea = the door , ‘a’ corresponds to definite article
 telefono erantzun ; telefono -a erantzun
-#  water plants ; water the plants
 landare ureztatu ; landare -ak ureztatu
-#  clear table ; clear the table
 mahai garbitu ; mahai -a garbitu
-#  take coffee, pour coffee into mug ; take the coffee and pour it into the mug
 kafe hartu , kafe kiker ixuri ; kafe -a hartu eta kiker -an ixuri
-#  clean table, put mug on table ; clean the table and put the mug on it
 mahai garbitu, kiker ezarri mahai gainean ; mahai -a garbitu eta kiker -a ezarri gainean
-#  put mug on left ; put the mug on the left
 kiker ezker ezarri ; kiker -a ezker -rean ezarri
-#  get phone, bring phone me ; get the phone and bring it to me
 telefono hartu, neri ekarri ; telefono -a hartu eta neri ekarri
-#  go to bathroom ; go to the bathroom
 mainugel joan ; mainugel -ara joan
-#  make tea me; make me some tea
 tea egin diezadazu ; tea egin diezadazu
-#  tell joke me ; tell me a joke
 txiste erran nazazu ; txiste bat erran nazazu
-#  make sandwhich me, sandwhich tomatoes ; make me a sandwhich with tomatoes
 ogitarte egin nazazu, ogitarte tomate ; ogitarte bat egin nazazu tomate -ekin
-#  bring newspaper me, newspaper on table, table in kitchen ; bring me the newspaper which is on the table in the kitchen
 egunkari ekar diezadazu, egunkari mahai gainean, mahai sukalde ; sukalde -ko mahai gainean den egunkari -a ekar diezadazu
-#  bring dress me, dress blue, dress in closet ; bring me the blue dress that is in the closet
 arropa ekarri diezadazu, arropa urdin, arropa armairuan ; armairuan den arropa urdin -a ekarri diezadazu
-#  bring pen me, pen blue, pen beside cup, cup red ; bring me the blue pen beside the red cup
 idazluma ekarri diezadazu, idazluma urdin, idazluma kiker ondoan, kiker gorri ; kiker -a gorri -aren ondoan den idazluma urdin -a ekarri diezadazu
-#  dance for me, clean floor, clean same time ; dance for me and clean the floor at the same time
 dantza egin neretzat, lur garbitu,garbitu denbora beran ; neretzat dantza egin eta lur -ra garbitu denbora beran
-#  switch off light ; switch off the light
 argi itzali ; argi -a itzali
-#  find bottle, bottle water ; find the bottle of water
 botil aurkitu, botil ur ; ur botil -a aurkitu
-#  search object, object small pink ; search for the small pink object
 gauz bilatu, gauz txiki arros ; gauz -a txiki eta arros -a bilatu
-#  search recipe internet, recipe tiramisu ; search the recipe of tiramisu on internet
 tiramisu errezeta, errezeta bilatu internet ; tiramisu errezeta bilatu internet -en
-#  check if, if husband home, husband my, if five ; check if my husband is at home at five
 egiaztatu, senar etxean bada, senar nere, bost bada ; egiaztatu nere senar -a etxean bada bost -etan
 
 
 
-##############################################
 ###############################
-########  Persian    ############
+###############################
+########  Persian    ##########
 ###############################
 baz dar ; dar ra baz kon
 javab telfon ; telfon ra javab bede
@@ -315,7 +295,7 @@ ro be dastshooyi; be dastshooyi bo- ro
 dorost chay man; baray -e man chay dorost kon
 goo jok man; baray -e man jok be- goo
 dorost sandwich man, sandwich gojefarangi; baray -e man sandwich ba gojefarangi dorost kon
-avar roozname man, roozname rooy miz, miz dar ashpazkhane; roozname -yi ra ke rooy -e miz dar ashpazkhane ast ra baray -e man bi- avar      #-yi is same -e, only because the word finish with “e” we use “yi”
+avar roozname man, roozname rooy miz, miz dar ashpazkhane; roozname -yi ra ke rooy -e miz dar ashpazkhane ast ra baray -e man bi- avar #-yi is same -e, only because the word finish with “e” we use “yi”
 avar lebas man, lebas abi, lebas dar komod; lebas -e abi ra ke dar komod ast ra baray -e man bi- avar
 avar khodakar man, khodakar abi, khodakar kenar fenjan, fenjan ghermez ; khodakar -e abi ra ke kenar -e fenjan ghermez ast baray -e man bi- avar
 raghs baray man, tamiz zamin, tamiz ham zaman; zamin ra tamiz kon va ham zaman baray -e man be- raghs # “same time” is one word in Persian. I splited artificially. However, “ham” is prefix used for similarity but not for the word “same”
@@ -326,10 +306,10 @@ gard dastoorpokht internet, dastoorpokht tiramisu ; donbal -e dastoorpokht -e ti
 barrasi agar, agar shohar khane, shohar man, agar panj ; barrasi kon agar shohar -e man saat -e panj dakhel -e khane bashad # “saat” means hour/oclock and it is not possible to say without “saat”.
 
 
-##############################################
-###############################
-########  Portuguese (from Brasil)    ############
-###############################
+#######################################
+#######################################
+########  Portuguese (from Brasil) ####
+#######################################
 abra porta; abra a porta
 atenda telefone; atenda o telefone
 águe plantas ; águe as plantas
@@ -359,9 +339,9 @@ procure receita internet, receita na tiramissu ; procure a receita de tiramissu 
 verifique se, se marido casa, marido meu, se cinco ; verifique se meu marido estará em casa às cinco
 
 
-###############################
-########  MANDARIN (simplified Chinese)  ############
-###############################
+################################################
+########  MANDARIN (simplified Chinese)  #######
+################################################
 #1. open door ; open the door
 开 门;开 那 -道 门
 #2. answer phone ; answer the phone
@@ -405,9 +385,9 @@ verifique se, se marido casa, marido meu, se cinco ; verifique se meu marido est
 #21. check if, if husband home, husband my, if five ; check if my husband is at home at five
 检查 是不是,是不是 丈夫 家,丈夫 我的,是不是 五点钟;检查 我的 丈夫 是不是 五点钟 有 在 家
 
-###############################
-########  MANDARIN (Traditional Chinese) ############
-###############################
+################################################
+########  MANDARIN (Traditional Chinese) #######
+################################################
 #1. open door ; open the door
 開 門;開 那 -道 門
 #2. answer phone ; answer the phone
@@ -454,7 +434,7 @@ verifique se, se marido casa, marido meu, se cinco ; verifique se meu marido est
 
 
 ###############################
-########  Malay ############
+########  Malay ###############
 ###############################
 # Note: The article ‘the’ is also being replaced by ‘that‘ in Malay. ‘Open the door‘ is translated to
 # ‘open that door‘. ‘nya‘ = ‘it‘, sometimes it connects with the verb and sometimes it is
@@ -504,11 +484,9 @@ cari resipi internet, resipi tiramisu; cari -kan resipi tiramisu itu di internet
 memeriksa jikalau, jikalau suami rumah, suami saya, jikalau lima; memeriksa -kan jikalau suami saya berada di rumah pada pukul lima
 
 
-#############################
-########  TURC   ############
-###############################
-### NEW FROM 2017-02-13
-
+################################
+########  Turkish   ############
+################################
 # Notes: some accents  on letter "g" or absence of point on "i" may be missing, but it does not change the processing of the program.
 
 aç kapi ; kapi -yi aç
@@ -523,7 +501,7 @@ git tuvalet ; tuvalet -e git
 hazirla çay bana; bana çay hazirla #may sound strange because making tea is never for one person usually in Turkish
 söyle şaka bana ; bana bir şaka söyle
 hazirla sandviç bana, sandviç domates ; domates -li bir sandviç bana hazirla
-getir gazete bana, gazete üstünde masa, masa -da mutfak ;  mutfak -da olan masa -nin üstünde -ki gazete bana getir ### mutfakta: dans la cuisine ###
+getir gazete bana, gazete üstünde masa, masa -da mutfak ;  mutfak -da olan masa -nin üstünde -ki gazete bana getir ### mutfakta: in the kitchen ###
 getir giyim bana, giyim mavi, giyim -ta dolap; dolap -ta -ki mavi giyim bana getir
 getir kalem bana, kalem mavi, fincan -ile kalem, fincan kirmizi ; bana mavi kalem -i kirmizi fincan -ile getir
 dans ed için benim, temizle ev, temizle ayni zaman ; benim için dans ed -ip ayni zaman -da ev -i temizle
@@ -533,8 +511,8 @@ al şey, şey pembe küçük ; küçük pembe şey -i al # "al" = "take", "buy",
 ara internet tarif, tarif tiramisu ; internet -te tiramisu tarif -i ara
 kontrol et, koca ev, koca -m, saat beş ; koca -m ev -de saat beş -te olacagina kontrol et # "if" could be translated by "eger", but it is infrequent usage. Conditional is enough.
 
-#######################
-########  Bulgarian ############
+###############################
+########  Bulgarian ###########
 ###############################
 
 # open door ; open the door
@@ -584,5 +562,4 @@ kontrol et, koca ev, koca -m, saat beş ; koca -m ev -de saat beş -te olacagina
 </train data>
 
 <test data>
-
 </test data>
