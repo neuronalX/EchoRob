@@ -104,6 +104,7 @@ chequea si, si marido casa, marido mi, si cinco ; chequea si mi marido está en 
 ###############################
 ########  FRENCH   ############
 ###############################
+# both semantic words and close class words : dans, sur
 
 ouvre porte ; ouvre la porte
 réponds téléphone ; réponds au téléphone
@@ -116,13 +117,13 @@ nettoie table, met tasse dessus table ; nettoie la table et met la tasse dessus
 met tasse gauche ; met la tasse à gauche
 
 prends téléphone, amène téléphone moi ; prends le téléphone et amène le moi
-va dans salle_de_bain ; va dans la salle_de_bain
+va dans salle, salle bain ; va dans la salle de bain # could also be written like this: va dans salle_de_bain ; va dans la salle_de_bain
 
 fais thé moi ; fais moi du thé
 raconte blague moi ; raconte moi une blague
-fais sandwich moi, sandwhich tomates ;fais moi un sandwhich avec des tomates
+fais sandwhich moi, sandwhich tomates ;fais moi un sandwhich avec des tomates
 apporte journal moi, journal sur table, table dans cuisine ; apporte moi le journal qui est sur la table dans la cuisine
-apporte robe moi, robe bleu, robe dans placard ; apporte moi la robe bleue qui est dans le placard
+apporte robe moi, robe bleue, robe dans placard ; apporte moi la robe bleue qui est dans le placard
 apporte stylo moi, stylo bleu, stylo côté tasse, tasse rouge ; apporte moi le stylo bleu à côté de la tasse rouge
 danse pour moi, nettoie sol, nettoie même temps; danse pour moi et nettoie le sol en même temps
 
