@@ -1,6 +1,10 @@
 # EchoRob
 Recurrent Neural Network for Syntax Learning with Flexible Representations for Robotic Architectures
 
+## Want to be updated?
+Drop me an email if you want to be updated by new features, corpa or versions of the model are available:
+xavier dot hinaut at inria dot fr
+
 ## Intro on Reservoir Computing
 Reservoir Computing (RC) is a type of Recurrent Neural Network used in this EchoRob project. Namely we use an instance of RC called Echo State Networks (ESN).
 
