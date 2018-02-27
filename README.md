@@ -29,7 +29,7 @@ These corpora were used in the _CoCo @ NIPS 2015 workshop_:
 
 ### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
 - 462 constructions corpus (to test generalization of the model on all possible combinaison of 2 to 6 semantic words):
-  - [2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.RTF](/corpora/2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.RTF)
+  - [2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.txt](/corpora/2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.txt)
 - 90.000 constructions corpus (English plausible sentence)
   - [2013_PLoS_ONE_Corpus_90k.zip](/corpora/2013_PLoS_ONE_Corpus_90k.zip)
 - Other downloads for this PLoS ONE 2013 paper:
