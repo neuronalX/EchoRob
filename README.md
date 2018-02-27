@@ -37,7 +37,12 @@ These corpora were used in the _CoCo @ NIPS 2015 workshop_:
 (soon here ...)
 
 ### PLoS ONE (2013)
-[xavierhinaut.com/downloads](http://www.xavierhinaut.com/downloads)
+- 462 constructions corpus (to test generalization of the model on all possible combinaison of 2 to 6 semantic words):
+  - [2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.RTF](/corpora/2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.RTF)
+- 90.000 constructions corpus (English plausible sentence)
+  - [2013_PLoS_ONE_Corpus_90k.zip](/corpora/2013_PLoS_ONE_Corpus_90k.zip)
+- Other downloads for this PLoS ONE 2013 paper:
+  - [xavierhinaut.com/downloads](https://sites.google.com/site/xavierhinaut/downloads)
 
 ### (Other codes available soon ...)
 
