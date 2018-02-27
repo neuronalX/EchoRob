@@ -27,16 +27,7 @@ These corpora were used in the _CoCo @ NIPS 2015 workshop_:
 - English: [2015_English_5subjects_robot_instructions](/corpora/2015_English_5subjects_robot_instructions.csv)
 - French: [2015_French_5subjects_robot_instructions](/corpora/2015_French_5subjects_robot_instructions.csv)
 
-
-
 ### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
-[xavierhinaut.com/downloads](http://www.xavierhinaut.com/downloads)
-
-## Source code
-### ROS module
-(soon here ...)
-
-### PLoS ONE (2013)
 - 462 constructions corpus (to test generalization of the model on all possible combinaison of 2 to 6 semantic words):
   - [2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.RTF](/corpora/2013_PLoS_ONE_corpus-462_journal.pone.0052946.s007.RTF)
 - 90.000 constructions corpus (English plausible sentence)
@@ -44,16 +35,26 @@ These corpora were used in the _CoCo @ NIPS 2015 workshop_:
 - Other downloads for this PLoS ONE 2013 paper:
   - [xavierhinaut.com/downloads](https://sites.google.com/site/xavierhinaut/downloads)
 
+## Source code
+### ROS module
+(soon here ...)
+
+### PLoS ONE (2013)
+[xavierhinaut.com/downloads](https://sites.google.com/site/xavierhinaut/downloads)
+
 ### (Other codes available soon ...)
 
 ## Videos
 - iCub understanding a sentence and performing some actions
 http://youtube.com/watch?v=3ZePCuvygi0
 - "Humanoidly Speaking": Interaction with Nao (IJCAI 2015 video)
-https://www.youtube.com/watch?v=FpYDco3ZgkU
+  - https://www.youtube.com/watch?v=FpYDco3ZgkU
+  - [Description of the video](https://www.researchgate.net/publication/281590370_Humanoidly_Speaking_-_How_the_Nao_humanoid_robot_can_learn_the_name_of_objects_and_interact_with_them_through_common_speech?ev=prf_ov_fet_res&_iepl%5BviewId%5D=V5HeUWGFjNnWE8Q8ovSIKJ1UEcBXo9F0QThK&_iepl%5Bcontexts%5D%5B0%5D=prfhpi&_iepl%5Bdata%5D%5BstandardItemCount%5D=4&_iepl%5Bdata%5D%5BuserSelectedItemCount%5D=5&_iepl%5Bdata%5D%5BtopHighlightCount%5D=2&_iepl%5Bdata%5D%5BtopHighlightIndex%5D=1&_iepl%5Bdata%5D%5BfeaturedItem1of2%5D=1&_iepl%5BtargetEntityId%5D=PB%3A281590370&_iepl%5BinteractionType%5D=publicationTitle)
 
 ## References
-More information about the syntax learning model and related papers
+More information about the syntax learning model and related papers.
+Most recent papers could be seen on my [Research Gate](https://www.researchgate.net/profile/Xavier_Hinaut) or [Google Scholar](https://scholar.google.com/citations?user=pNW4eZAAAAAJ) profiles.
+
 ### Hinaut & Dominey (2013) _PLoS ONE_
 Most detailed about general model features and background of the approach.
 [Paper open access](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052946)
