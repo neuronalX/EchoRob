@@ -14,7 +14,7 @@ Subjects were asked to provide sentences in English or in French for each of the
 - [English corpus](../2015_English_5subjects_robot_instructions.csv)
 - [French corpus](../2015_French_5subjects_robot_instructions.csv)
 
-These corpus were used in further experiments, please see the [root directory of the repository](../../) or see [my Google Citations page](https://scholar.google.com/citations?user=pNW4eZAAAAAJ) for further information.
+These corpus were used in further experiments, please see the [root directory of the repository](https://github.com/neuronalX/EchoRob) or see [my Google Citations page](https://scholar.google.com/citations?user=pNW4eZAAAAAJ) for further information.
 
 ### Reference
 If you use this material, please cite the reference above in your paper.
