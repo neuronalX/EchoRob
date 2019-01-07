@@ -29,7 +29,7 @@ These corpora were used in the _CoCo (Cogitive Computation) @ NIPS 2015 workshop
 - English: [2015_English_5subjects_robot_instructions](/corpora/2015_English_5subjects_robot_instructions.csv)
 - French: [2015_French_5subjects_robot_instructions](/corpora/2015_French_5subjects_robot_instructions.csv)
 
-Subjects were asked to provide sentences in English or in French for each of the 38 videos provided. The [videos are available here](Hinaut2015_videos/README.md).
+Subjects were asked to provide sentences in English or in French for each of the 38 videos provided. The [videos are available here](Hinaut2014_videos/README.md).
 
 ### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
 - 462 constructions corpus (to test generalization of the model on all possible combinaison of 2 to 6 semantic words):
@@ -63,11 +63,11 @@ Most recent papers could be seen on my [Research Gate](https://www.researchgate.
 Most detailed about general model features and background of the approach.
 [Paper open access](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052946)
 
-### Hinaut et al. (2015) _Frontiers in NeuroRobotics_
+### Hinaut et al. (2014) _Frontiers in NeuroRobotics_
 Implementation of the model in the iCub humanoid robot and data collection with naive users. Presentation of the "reverse" version of the model producing sentences based on meaning representation.
 [Paper open access](http://journal.frontiersin.org/article/10.3389/fnbot.2014.00016/full)
 
-### Hinaut et al. (2015) _CoCo @ NIPS workshop_
+### Hinaut et al. (2015) _CoCo (Cognitive Computation) @ NIPS workshop_
 Syntax model generalize on English and French at the same time using the same random reservoir (hidden layer).
 Model enhanced with the ability to process "unwkown/infrequent words".
 [Paper on ResearchGate](https://www.researchgate.net/publication/284691419_A_Recurrent_Neural_Network_for_Multiple_Language_Acquisition_Starting_with_English_and_French)
