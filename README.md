@@ -29,7 +29,7 @@ These corpora were used in the _CoCo (Cogitive Computation) @ NIPS 2015 workshop
 - English: [2015_English_5subjects_robot_instructions](/corpora/2015_English_5subjects_robot_instructions.csv)
 - French: [2015_French_5subjects_robot_instructions](/corpora/2015_French_5subjects_robot_instructions.csv)
 
-Subjects were asked to provide sentences in English or in French for each of the 38 videos provided. The [videos are available here](Hinaut2014_videos/README.md).
+Subjects were asked to provide sentences in English or in French for each of the 38 videos provided. The [videos are available here](/corpora/Hinaut2014_videos/.).
 
 ### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
 - 462 constructions corpus (to test generalization of the model on all possible combinaison of 2 to 6 semantic words):
