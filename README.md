@@ -8,7 +8,7 @@ xavier dot hinaut at inria dot fr
 ## Intro on Reservoir Computing
 Reservoir Computing (RC) is a type of Recurrent Neural Network used in this EchoRob project. Namely we use an instance of RC called Echo State Networks (ESN).
 
-Here you can find the [FunkyReservoir](https://github.com/neuronalX/FunkyReservoir) repository with a simple ESN class that can be easily used for many applications.
+Here you can find the [ReservoirPy](https://github.com/neuronalX/reservoirpy) repository with a simple ESN class that can be easily used for many applications.
 
 [Romain Pastureau](https://github.com/RomainPastureau) (intern in our Mnemosyne team; summer 2016) did great iPython Notebook tutorials:
 
