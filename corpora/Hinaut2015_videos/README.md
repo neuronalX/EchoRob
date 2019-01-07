@@ -4,7 +4,9 @@
 
 Hinaut2015_frontiers_videos.zip file contains the 38 videos used in the following paper:
 
-    Hinaut X, Petit M, Pointeau G and Dominey PF (2014) Exploring the acquisition and production of grammatical constructions through human-robot interaction with echo state networks. Front. Neurorobot. 8:16. [doi: 10.3389/fnbot.2014.00016](https://doi.org/10.3389/fnbot.2014.00016)
+  ```
+  Hinaut X, Petit M, Pointeau G and Dominey PF (2014) Exploring the acquisition and production of grammatical constructions through human-robot interaction with echo state networks. Front. Neurorobot. 8:16. [doi: 10.3389/fnbot.2014.00016](https://doi.org/10.3389/fnbot.2014.00016)
+  ```
 
 The paper is freely accessible [on the Frontiers website](https://www.frontiersin.org/articles/10.3389/fnbot.2014.00016/full).
 
