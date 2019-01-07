@@ -7,7 +7,7 @@
 #TODO
 </close class words>
 <train data>
-### frCM
+### subject 1: FR-CM
 pointe cercle;pointe le cercle
 attrape croix;attrape la croix
 touche croix;touche la croix
@@ -46,7 +46,7 @@ pousse triangle gauche, pousse croix gauche;pousse le triangle à gauche puis la
 déplace rond gauche, déplace croix gauche;déplace le rond et la croix à gauche
 déplace1 triangle milieu, déplace2 triangle gauche;déplace1 le triangle au milieu puis déplace2 le à gauche
 pousse1 cercle droite, pousse2 cercle gauche;pousse1 le cercle à droite puis pousse2 le à gauche
-### frC
+### subject 2: FR-C
 pointe cercle;pointe cercle
 attrape croix;attrape la croix
 touche croix;touche la croix
@@ -85,7 +85,7 @@ pousse1 triangle gauche1, pousse2 croix gauche2;pousse1 le triangle à gauche1 p
 déplace1 cercle droite1, déplace2 croix droite2;déplace1 le cercle à droite1 puis déplace2 la croix à droite2
 déplace triangle milieu, déplace triangle gauche;déplace le triangle au milieu puis à gauche
 pousse1 cercle droite, pousse2 cercle gauche;pousse1 le cercle à droite puis pousse2 le à gauche
-### frL
+### subject 3: FR-L
 pointe cercle;pointe le cercle
 attrape croix;attrape la croix
 touche croix;touche la croix
@@ -124,7 +124,7 @@ pousse1 triangle gauche1, pousse2 croix gauche2;pousse1 le triangle à gauche1 p
 déplace1 cercle droite1, déplace2 croix droite2;déplace1 le cercle à droite1 puis déplace2 la croix à droite2
 déplace triangle milieu, déplace triangle gauche;déplace le triangle au milieu puis à gauche
 pousse1 cercle droite, pousse2 cercle gauche;pousse1 le cercle à droite puis pousse2 le à gauche
-### frJ
+### subject 4: FR-J
 pointe cercle;pointe le cercle
 attrape croix;attrape la croix
 touche croix;touche la croix
@@ -163,7 +163,7 @@ déplace1 triangle gauche1, déplace2 croix gauche2;déplace1 le triangle à gau
 déplace1 rond droite1, déplace2 croix droite2;déplace1 le rond à droite1 puis déplace2 la croix à droite2
 déplace1 triangle1 centre, déplace2 triangle2 gauche;déplace1 le triangle1 au centre puis déplace2 le triangle2 à gauche
 pousse1 rond1 droite, pousse2 rond2 gauche;pousse1 le rond1 à droite puis pousse2 le rond2 à gauche
-### frM
+### subject 5: FR-M
 pointe cercle;pointe le cercle
 attrape croix;attrape la croix
 touche croix;touche la croix

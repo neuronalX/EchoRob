@@ -22,12 +22,14 @@ Click on the "launch Binder" button, and then run either:
 Most copora are available in the folder [/corpora](/corpora).
 
 ### 15 languages corpora is available here:
-[2017_TCDS_15languages.txt](/corpora/2017_TCDS_15languages.txt)
+[2019_TCDS_15languages.txt](/corpora/2019_TCDS_15languages.txt)
 
 ### Bilingual corpus on English and French obtain by asking 5 users of each language to give command instructions to robots:
-These corpora were used in the _CoCo @ NIPS 2015 workshop_:
+These corpora were used in the _CoCo (Cogitive Computation) @ NIPS 2015 workshop_:
 - English: [2015_English_5subjects_robot_instructions](/corpora/2015_English_5subjects_robot_instructions.csv)
 - French: [2015_French_5subjects_robot_instructions](/corpora/2015_French_5subjects_robot_instructions.csv)
+
+Subjects were asked to provide sentences in English or in French for each of the 38 videos provided. The [videos are available here](Hinaut2015_videos/README.md).
 
 ### Older corpora (for PLoS ONE 2013 paper) used with different versions of the model are available here:
 - 462 constructions corpus (to test generalization of the model on all possible combinaison of 2 to 6 semantic words):

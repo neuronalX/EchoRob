@@ -1,4 +1,4 @@
-### Digits after some words are just use by the preprocessing step to distinguish
+### Digits that could appear after words are just used by the preprocessing step to distinguish
 ### several identical words that appear in the same sentence.
 ### The neural network does not see them, nor use them, because they are removed
 ### at the preprocessing step.
@@ -7,7 +7,7 @@
 #TODO
 </close class words>
 <train data>
-### enC
+### subject 1: EN-C
 point circle;point to the circle
 grasp cross;grasp the cross
 touch cross;touch the cross
@@ -46,7 +46,7 @@ push1 triangle left1, push2 cross left2;push1 the triangle to the left1 then pus
 put1 circle1 right1, put2 circle2 right2;put1 the circle1 to the right1 and put2 the circle2 to the right2
 put1 triangle1 middle, put2 triangle2 left;put1 the triangle1 in the middle then put2 the triangle2 on the left
 push1 circle1 right, push2 circle2 left;push1 the circle1 to the right then push2 the circle2 to the left
-### enK
+### subject 2: EN-K
 point circle;point to the circle
 grasp cross;grasp the cross
 touch cross;touch the cross
@@ -85,7 +85,7 @@ push1 triangle left1, push2 cross left2;push1 the triangle to the left1 and push
 put circle right1, put cross right2;put the circle on the right1 and the cross on the right2
 put1 triangle middle, put2 triangle left;put1 the triangle in the middle then put2 it on the left
 push1 circle1 right, push2 circle2 left;push1 the circle1 to the right then push2 the circle2 to the left
-### enO
+### subject 3: EN-O
 point circle;point the circle
 grasp cross;grasp the cross
 touch cross;touch the cross
@@ -124,7 +124,7 @@ push triangle left, push cross left;push the triangle and the cross on the left
 put circle right, put cross right;put the circle and the cross on the right
 put1 triangle1 middle, put2 triangle2 left;put1 first the triangle1 on the middle and after put2 the triangle2 on the left
 put triangle middle, put triangle left;put first the triangle on the middle and after on the left
-### enG
+### subject 4: EN-G
 point circle left;point the circle on my left
 grasp cross;please grasp the red cross
 hit cross;hit the cross
@@ -163,7 +163,7 @@ push1 triangle left1, push2 cross left2;push1 the triangle to the left1 and push
 put objects right;put both objects to the right
 put triangle right;put the triangle to the right in two steps
 push circle1 right, push circle2 left;push the circle1 to the right and the circle2 to the left
-### enA
+### subject 5: EN-A
 point circle;point the circle
 grasp cross;grasp the cross
 touch cross;touch the cross
