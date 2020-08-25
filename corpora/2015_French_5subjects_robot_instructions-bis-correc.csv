@@ -1,0 +1,211 @@
+### Digits after some words are just use by the preprocessing step to distinguish
+### several identical words that appear in the same sentence.
+### The neural network does not see them, nor use them, because they are removed
+### at the preprocessing step.
+
+<close class words>
+#TODO
+</close class words>
+<train data>
+### subject 1: FR-CM
+pointe cercle;pointe le cercle
+attrape croix;attrape la croix
+touche croix;touche la croix
+déplace croix droite;déplace la croix à droite
+pousse triangle gauche;pousse le triangle vers la gauche
+pointe triangle, attrape cercle;pointe le triangle et attrape le cercle
+pointe triangle, touche cercle;pointe le triangle et touche le cercle
+attrape croix, pointe cercle;attrape la croix et pointe le cercle
+toucher croix, pointer cercle;tu dois toucher la croix puis pointer le cercle
+attrape cercle, pointe cercle;attrape le cercle puis pointe le
+touche cercle1, pointe cercle2;touche le cercle1 puis pointe le cercle2
+pointe triangle1, attrape triangle2;pointe le triangle1 et attrape le triangle2
+pointe triangle1, touche triangle2;pointe le triangle1 et touche le triangle2
+attrape1 triangle, attrape2 croix;attrape1 le triangle puis attrape2 la croix
+touche triangle, touche croix;touche le triangle puis la croix
+pointe croix, pointe cercle;pointe la croix puis le cercle
+pointe1 croix1, pointe2 croix2;pointe1 la croix1 puis pointe2 la croix2
+attrape1 cercle1, attrape2 cercle2;attrape1 le cercle1 et à nouveau attrape2 le cercle2
+touche cercle, touche cercle;touche le cercle deux fois
+pointe triangle, déplace cercle milieu;pointe le triangle puis déplace le cercle au milieu
+déplace croix gauche, attrape cercle;déplace la croix à gauche puis attrape le cercle
+déplace croix gauche, touche cercle;déplace la croix à gauche puis touche le cercle
+déplace croix1 droite, pointe croix2;déplace la croix1 à droite et pointe la croix2
+attrape triangle, déplace triangle gauche;attrape le triangle et déplace le à gauche
+touche triangle, déplace triangle gauche;touche le triangle et déplace le à gauche
+déplace1 triangle milieu, déplace2 croix droite;déplace1 le triangle au milieu et déplace2 la croix à droite
+déplace cercle gauche, pousse croix milieu;déplace le cercle à gauche puis pousse la croix au milieu
+pousse cercle1 gauche, déplace cercle2 milieu;pousse le cercle1 à gauche et déplace le cercle2 au milieu
+pousse cercle milieu, déplace cercle droite;pousse le cercle au milieu puis déplace le à droite
+déplace triangle gauche, pousse triangle milieu;déplace le triangle à gauche et ensuite pousse le au milieu
+pousse1 croix droite, pousse2 triangle milieu;pousse1 la croix à droite et pousse2 le triangle au milieu
+déplace1 triangle milieu, déplace2 cercle gauche;déplace1 le triangle au milieu puis déplace2 le cercle à gauche
+déplace croix1 droite1, pousse croix2 droite2;déplace la croix1 à droite1 puis pousse la croix2 en cercle0 vers la droite2
+pousse triangle milieu1, déplace cercle milieu2;pousse le triangle au milieu1 et déplace le cercle au milieu2
+pousse triangle gauche, pousse croix gauche;pousse le triangle à gauche puis la croix
+déplace rond gauche, déplace croix gauche;déplace le rond et la croix à gauche
+déplace1 triangle milieu, déplace2 triangle gauche;déplace1 le triangle au milieu puis déplace2 le à gauche
+pousse1 cercle droite, pousse2 cercle gauche;pousse1 le cercle à droite puis pousse2 le à gauche
+### subject 2: FR-C
+pointe cercle;pointe cercle
+attrape croix;attrape la croix
+touche croix;touche la croix
+déplace croix droite;déplace la croix à droite
+pousse triangle gauche;pousse le triangle à gauche
+pointe triangle, attrape cercle;pointe le triangle et attrape le cercle
+pointe triangle, touche cercle;pointe le triangle et touche le cercle
+attrape croix, pointe cercle;attrape la croix puis pointe le cercle
+touche croix, pointe cercle;touche la croix et pointe le cercle
+attrape cercle, pointe cercle;attrape le cercle et pointe le
+touche cercle, pointe cercle;touche le cercle et pointe le
+pointe triangle, attrape triangle;pointe le triangle et attrape le
+pointe triangle, touche triangle;pointe le triangle puis touche le
+attrape1 triangle, attrape2 croix;attrape1 le triangle puis attrape2 la croix
+touche triangle, touche croix;touche le triangle puis la croix
+pointe1 croix, pointe2 cercle;pointe1 la croix puis pointe2 le cercle
+pointe croix1, repointe croix2;pointe la croix1 puis repointe la croix2
+attrape1 cercle1, attrape2 cercle2;attrape1 le cercle1 puis attrape2 le cercle2
+touche1 cercle1, touche2 cercle2;touche1 le cercle1 puis touche2 le cercle2
+pointe triangle, déplace cercle milieu;pointe le triangle puis déplace le cercle au milieu
+déplace croix gauche, attrape cercle;déplace la croix à gauche puis attrape le cercle
+déplace croix gauche, touche cercle;déplace à gauche la croix puis touche le cercle
+déplace croix droite, pointe croix;déplace la croix à droite puis pointe la
+attrape triangle, déplace triangle gauche;attrape le triangle puis déplace le à gauche
+touche triangle, déplace triangle gauche;touche le triangle puis déplace le à gauche
+déplace1 triangle milieu, déplace2 croix droite;déplace1 le triangle au milieu puis déplace2 la croix à droite
+déplace triangle gauche, pousse croix milieu;déplace le triangle à gauche puis pousse la croix au milieu
+pousse cercle gauche, déplace croix milieu;pousse le cercle à gauche puis déplace la croix au milieu
+pousse cercle milieu, redéplace cercle droite;pousse le cercle au milieu puis redéplace le à droite
+déplace triangle gauche, pousse triangle milieu;déplace le triangle à gauche puis pousse le au milieu
+pousse1 croix droite, pousse2 triangle milieu;pousse1 la croix à droite puis pousse2 le triangle au milieu
+déplace1 triangle milieu, déplace2 cercle gauche;déplace1 le triangle au milieu puis déplace2 le cercle à gauche
+déplace croix droite1, pousse croix droite2;déplace la croix à droite1 puis pousse la à droite2
+pousse triangle milieu1, déplace cercle milieu2;pousse le triangle au milieu1 et déplace le cercle au milieu2
+pousse1 triangle gauche1, pousse2 croix gauche2;pousse1 le triangle à gauche1 puis pousse2 la croix à gauche2
+déplace1 cercle droite1, déplace2 croix droite2;déplace1 le cercle à droite1 puis déplace2 la croix à droite2
+déplace triangle milieu, déplace triangle gauche;déplace le triangle au milieu puis à gauche
+pousse1 cercle droite, pousse2 cercle gauche;pousse1 le cercle à droite puis pousse2 le à gauche
+### subject 3: FR-L
+pointe cercle;pointe le cercle
+attrape croix;attrape la croix
+touche croix;touche la croix
+déplace croix droite;déplace la croix à droite
+pousse triangle gauche;pousse le triangle à gauche
+pointe triangle, attrape cercle;pointe le triangle puis attrape le cercle
+pointe triangle, touche cercle;pointe le triangle puis touche le cercle
+attrape croix, pointe cercle;attrape la croix puis pointe le cercle
+touche croix, pointe cercle;touche la croix puis pointe le cercle
+attrape cercle1, pointe cercle2;attrape le cercle1 puis pointe le cercle2
+touche cercle1, pointe cercle2;touche le cercle1 puis pointe le cercle2
+pointe triangle1, attraper triangle2;pointe le triangle1 avant d' attraper le triangle2
+pointe triangle1, touche triangle2;pointe le triangle1 puis touche le triangle2
+attrape1 triangle, attrape2 croix;attrape1 le triangle puis attrape2 la croix
+touche1 triangle, touche2 croix;touche1 le triangle puis touche2 la croix
+pointe croix, pointe cercle;pointe la croix puis le cercle
+pointe1 croix1, pointe2 croix2;pointe1 la croix1 puis pointe2 la croix2
+attrape cercle, attrape cercle;attrape le cercle puis recommence
+touche1 cercle1, touche2 cercle2;touche1 le cercle1 puis touche2 le cercle2
+pointe triangle, déplace cercle milieu;pointe le triangle puis déplace le cercle au milieu
+déplace croix gauche, attrape cercle;déplace la croix à gauche puis attrape le cercle
+déplace croix gauche, touche cercle;déplace la croix à gauche puis touche le cercle
+déplace croix1 droite, pointe croix2;déplace la croix1 à droite puis pointe la croix2
+attrape triangle, déplace triangle gauche;attrape le triangle puis déplace le à gauche
+touche triangle, déplace triangle gauche;touche le triangle puis déplace le à gauche
+déplace triangle milieu, déplace croix droite;déplace le triangle au milieu puis la croix à droite
+déplace cercle gauche, pousse croix milieu;déplace le cercle à gauche puis pousse la croix au milieu
+pousse cercle gauche, déplace croix milieu;pousse le cercle à gauche puis déplace la croix au milieu
+pousse cercle milieu, déplace cercle droite;pousse le cercle au milieu puis déplace le à droite
+déplace triangle gauche, pousse triangle milieu;déplace le triangle à gauche puis pousse le au milieu
+pousse1 croix droite, pousse2 triangle milieu;pousse1 la croix à droite puis pousse2 le triangle au milieu
+déplace1 triangle milieu, déplace2 cercle gauche;déplace1 le triangle au milieu puis déplace2 le cercle à gauche
+déplace croix1 droite1, pousse croix2 droite2;déplace la croix1 à droite1 puis pousse la croix2 à droite2
+pousse triangle milieu1, déplace cercle milieu2;pousse le triangle au milieu1 puis déplace le cercle au milieu2
+pousse1 triangle gauche1, pousse2 croix gauche2;pousse1 le triangle à gauche1 puis pousse2 la croix à gauche2
+déplace1 cercle droite1, déplace2 croix droite2;déplace1 le cercle à droite1 puis déplace2 la croix à droite2
+déplace triangle milieu, déplace triangle gauche;déplace le triangle au milieu puis à gauche
+pousse1 cercle droite, pousse2 cercle gauche;pousse1 le cercle à droite puis pousse2 le à gauche
+### subject 4: FR-J
+pointe cercle;pointe le cercle
+attrape croix;attrape la croix
+touche croix;touche la croix
+attrape croix, déplace droite;attrape la croix puis déplace à droite
+pousse triangle gauche;pousse le triangle à gauche
+pointe triangle, attrape rond;pointe le triangle puis attrape le rond
+pointe triangle, touche rond;pointe le triangle puis touche le rond
+attrape croix, pointe rond;attrape la croix puis pointe le rond
+touche croix, pointe rond;touche la croix puis pointe le rond
+attrape rond1, pointe rond2;attrape le rond1 puis pointe le rond2
+touche rond1, pointe rond2;touche le rond1 puis pointe le rond2
+pointe triangle, attrape triangle;pointe le triangle puis attrape le
+pointe triangle1, touche triangle2;pointe le triangle1 puis touche le triangle2
+attrape1 triangle, attrape2 croix;attrape1 le triangle puis attrape2 la croix
+touche1 triangle, touche2 croix;touche1 le triangle puis touche2 la croix
+pointe1 croix, pointe2 rond;pointe1 la croix puis pointe2 le rond
+pointe1 croix1, pointe2 croix2;pointe1 la croix1 puis pointe2 la croix2
+attrape1 rond1, attrape2 rond2;attrape1 le rond1 puis attrape2 le rond2
+touche1 rond1, touche2 rond2;touche1 le rond1 puis touche2 le rond2
+pointe triangle, déplace rond milieu;pointe le triangle puis déplace le rond au milieu
+déplace croix gauche, attrape rond;déplace la croix à gauche du rond0 puis attrape le rond
+déplace croix gauche, touche rond;déplace la croix sur la gauche puis touche le rond
+déplace croix1 droite, pointe croix2;déplace la croix1 à droite puis pointe la croix2
+attrape triangle1, déplace triangle2 gauche;attrape le triangle1 puis déplace le triangle2 à gauche
+touche triangle, déplace triangle gauche;touche le triangle puis déplace le à gauche
+déplace1 triangle centre, déplace2 croix droite;déplace1 le triangle au centre puis déplace2 la croix à droite
+déplace rond gauche, pousse croix centre;déplace le rond à gauche puis pousse la croix vers le centre
+pousse rond gauche, déplace croix centre;pousse le rond à gauche puis déplace la croix au centre
+pousse rond milieu, déplace rond droite;pousse le rond au milieu puis déplace le à droite
+déplace triangle1 gauche, pousse triangle2 centre;déplace le triangle1 à gauche puis pousse le triangle2 au centre
+pousse1 croix droite, pousse2 triangle centre;pousse1 la croix à droite puis pousse2 le triangle au centre
+déplace1 triangle centre, déplace2 rond gauche;déplace1 le triangle au centre puis déplace2 le rond à gauche
+déplace croix droite1, pousse croix droite2;déplace la croix à droite1 puis pousse la vers la droite2
+pousse triangle milieu1, déplace cercle milieu2;pousse le triangle au milieu1 puis déplace le cercle au milieu2
+déplace1 triangle gauche1, déplace2 croix gauche2;déplace1 le triangle à gauche1 puis déplace2 la croix à gauche2
+déplace1 rond droite1, déplace2 croix droite2;déplace1 le rond à droite1 puis déplace2 la croix à droite2
+déplace1 triangle1 centre, déplace2 triangle2 gauche;déplace1 le triangle1 au centre puis déplace2 le triangle2 à gauche
+pousse1 rond1 droite, pousse2 rond2 gauche;pousse1 le rond1 à droite puis pousse2 le rond2 à gauche
+### subject 5: FR-M
+pointe cercle;pointe le cercle
+attrape croix;attrape la croix
+touche croix;touche la croix
+déplace croix droite;déplace la croix à droite
+pousse triangle gauche;pousse le triangle à gauche
+pointe triangle, attraper cercle;pointe le triangle avant d' attraper le cercle
+pointe triangle, touche cercle;pointe le triangle et après touche le cercle
+attrape croix, pointe cercle;attrape la croix et pointe le cercle
+touche croix, pointe cercle;touche la croix et pointe le cercle
+attrape cercle, pointe cercle;attrape le cercle et pointe le
+toucher cercle, pointer cercle;il faut toucher le cercle avant de le pointer
+pointe triangle, attrape triangle;pointe et attrape le triangle
+pointe triangle, touche triangle;pointe et touche le triangle
+attrape triangle, attrape croix;attrape d' abord le triangle puis la croix
+touche croix, touche triangle;touche une fois la croix et une fois le triangle
+pointe croix, pointe cercle;pointe la croix puis le cercle
+pointe croix1, pointer croix2;avant de pointer la croix2 pointe la croix1
+attraper cercle, attraper cercle;il faut attraper le cercle deux fois de suite
+touche cercle, touche cercle;touche le cercle deux fois
+pointe triangle, déplace cercle droite;pointe le triangle et déplace le cercle vers la droite
+déplace croix gauche, attrape cercle;déplace la croix à gauche puis attrape le cercle
+déplace croix gauche, touche cercle;déplace la croix à gauche et touche le cercle
+déplace croix, pointe croix;déplace puis pointe la croix
+attrape triangle, déplace triangle gauche;attrape le triangle et déplace le à gauche
+touche triangle, déplace triangle gauche;touche le triangle et déplace le à gauche
+déplace1 triangle centre, déplace2 croix droite;déplace1 le triangle au centre puis déplace2 la croix à droite
+déplace cercle gauche, pousse croix centre;déplace le cercle à gauche puis pousse la croix au centre  #déplace cercle gauche1, pousse croix gauche2;déplace le cercle à gauche1 puis pousse la croix à gauche2
+pousse cercle gauche, déplace croix centre;pousse le cercle à gauche déplace la croix au centre
+pousse cercle centre, déplace cercle droite;pousse le cercle au centre et déplace le à droite
+déplace triangle gauche, pousse triangle centre;déplace le triangle vers la gauche et pousse le au centre
+pousse croix droite, pousse triangle centre;pousse la croix vers la droite et le triangle au centre
+déplace1 triangle centre, déplace2 cercle gauche;déplace1 le triangle au centre et déplace2 le cercle à gauche
+déplace croix droite1, pousse croix droite2;déplace la croix à droite1 et pousse la à droite2
+pousse triangle centre1, déplace cercle centre2;pousse le triangle au centre1 déplace le cercle au centre2
+pousse triangle gauche, pousse croix gauche;pousse le triangle et la croix à gauche
+déplace cercle droite, déplace croix droite;à droite il faut que tu déplace le cercle ainsi que la croix
+déplaceras triangle centre, déplaceras triangle gauche;tu déplaceras le triangle d' abord au centre puis à gauche
+pousses cercle droite, pousses cercle gauche;tu pousses le cercle vers la droite et ensuite vers la gauche
+<train data>
+
+### Info for particular case: 'cercle0' and 'rond0':
+###        when testing one could not know that these are not OCW (Open Class Words i.e. function words),
+###        so they should be processed as such but
+###        not attributed a role in the meaning (so that's why we should keep the '0'.
+###        So we should keep 'cercle0' and 'rond0' as OCW that has no attributed role.

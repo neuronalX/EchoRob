@@ -79,3 +79,15 @@ Integration of the syntax model in an HRI experiment using the Nao humanoid robo
 ### Twiefel et al. (2016) _ESANN_
 Adaptation of the syntax model to a crowdsourced (noisy) corpus data of robot arm commands
 [Paper on ResearchGate](https://www.researchgate.net/publication/303978525_Semantic_Role_Labelling_for_Robot_Instructions_using_Echo_State_Networks)
+
+### Hinaut (2018) _ICDL_
+Testing the (syntax) model on 3 levels of abstractions: syntactic constructions as before, but also sequence of words and sequences of phonemes. Results indicate that ESNs are able to generalize on all of them even if the corpus is noisy and with OOV (Out-of-Vocabulary) words.
+[Github repo and paper](https://github.com/neuronalX/Hinaut2018_icdl-epirob)
+
+### Hinaut & Spranger (2019) _ICDL_
+
+### Juven & Hinaut (2020) _IJCNN_
+
+### Pedrelli & Hinaut (2020) _IJCNN_
+
+### Dinh & Hinaut (2020) _ICDL_
